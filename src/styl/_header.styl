@@ -19,15 +19,22 @@ $bg
 	.logo
 		margin 0
 		line-height rem(35px)
+	.logo img
+		width 120px
+		float left
 	.logo a
 		color main
 		text-decoration none
-		font-size rem(28px)
+		font-size rem(38px)
 		&:after
+			position absolute
+			padding 20px 120px
+			font-weight bold
+			color main
 			transition all .4s
-			content '</> AD'
+			content '</>'
 			+above(cut)
-				content '</> Anon Developer'
+				content 'Mônica Mota Ocariz'
 
 // Header Post
 .header-post
@@ -53,7 +60,7 @@ $bg
 		font-size rem(16px)
 	h1
 		font-size rem(30px)
-		margin 0 0 30px    
+		margin 0 0 30px
 		text-shadow 3px 3px darken(main, 20%)
 		+above(cut)
 			font-size rem(60px)

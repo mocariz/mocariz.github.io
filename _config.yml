@@ -1,5 +1,5 @@
 # Site settings
-title:  Nerdices da Mônica
+title:  Mônica Mota Ocariz
 description: Blog sobre conhecimentos e aventuras do dia-a-dia
 baseurl: ""
 url: "https://monicamota.com.br"
@@ -30,11 +30,9 @@ compress_html:
 links:
   - title: Home
     url: /
-  - title: Series
-    url: /series
   - title: Tags
     url: /tags
-  - title: About Me
+  - title: Sobre
     url: /about
 
 # exclude my node related stuff
