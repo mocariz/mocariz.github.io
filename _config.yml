@@ -1,0 +1,41 @@
+# Site settings
+title:  Nerdices da Mônica
+description: Blog sobre conhecimentos e aventuras do dia-a-dia
+baseurl: "/nerdices-da-monica"
+url: "https://monicamota.com.br"
+
+# User settings
+username: Mônica Mota Ocariz
+user_description: Programadora Junior
+email: mota.ocariz@gmail.com
+twitter_username: Monica_Ocariz
+github_username:  monicamota
+
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/ #define como será o link dos posts
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Series
+    url: /series
+  - title: Tags
+    url: /tags
+  - title: About Me
+    url: /about
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
