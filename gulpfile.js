@@ -1,4 +1,4 @@
-var env         = require('minimist')(process.argv.slice(2)),
+var env       = require('minimist')(process.argv.slice(2)),
 	gulp        = require('gulp'),
 	plumber     = require('gulp-plumber'),
 	browserSync = require('browser-sync'),
