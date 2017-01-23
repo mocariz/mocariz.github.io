@@ -9,6 +9,11 @@ themes = {
 }
 
 for theme, category-color in themes
+    .post.{theme}
+      border 3px double category-color
+    .box-item.{theme}
+      &:hover
+        box-shadow 1px 2px 10px category-color
     .{theme}
         .title-category
             color category-color
@@ -45,25 +50,21 @@ for theme, category-color in themes
         .share a
             &:hover svg
                 fill category-color
-                
+
         body
-            &.search-overlay 
+            &.search-overlay
                 &:after
                     +below(cut)
                         background-color category-color
-        .icon-menu
-            fill category-color
-            
+
+
         .box-body
             h2
                 color category-color
             .tags a
                 color category-color
                 border 1px solid category-color
-        aside
-            background-color category-color
-            nav li a:hover
-                color category-color
+
         .ribbon span
             background-color category-color
             &:before
