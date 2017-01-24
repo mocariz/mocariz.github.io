@@ -72,12 +72,17 @@ Bem acho que já te consegui te convencer a usar então vamos lá
 
 ## Instalação
 
-Pra utilizar o gulp é necessário ter o node.js instalado na sua máquina. A
-instalação é bem simples.
+Pra utilizar o gulp é necessário ter o node.js instalado na sua máquina. Neste
+tutorial procurarei fazer passo a passo.
+
+O primeiro passo é criar o projeto, para isso crie uma pasta chamada Gulp, será o
+nosso projeto. Então digite no terminal o comando `npm init` para criar o
+arquivo package.json, que conterá todas as dependencias do projeto. Após isso
+vamos instalar o gulp, a instalação é bem simples.
 
 {% highlight  bash %}
 ## faz a instalação e adiciona a dependencia ao arquivo package.json
-npm install -g gulp gulp-cli --save-dev
+npm install gulp gulp-cli --save-dev
 {% endhighlight %}
 
 Caso de erros de permissão (acontece em sistemas Unix) insira **sudo** no inicio
@@ -88,7 +93,7 @@ muito atraente no gulp é que ele tem plugin para tudo que você pensar.
 {% highlight  bash %}
 
 ## faz a instalação e adiciona a dependencia ao arquivo package.json
-npm install -g gulp-jshint gulp-concat gulp-uglify gulp-rename browser-sync --save-dev
+npm install gulp-jshint gulp-concat gulp-uglify browser-sync --save-dev
 
 {% endhighlight %}
 
@@ -100,16 +105,17 @@ Foi desenvolvido para assegurar a qualidade e sintaxe do código. Basicamente, e
 [gulp-uglify](https://www.npmjs.com/package/gulp-uglify) :
 UglifyJS é utilizado para comprimir o javascript. Se você está se perguntando o que é comprimir, é gerar aqueles arquivos min.js
 
-[gulp-rename](https://www.npmjs.com/package/gulp-rename) :
-Como o próprio nome diz, este plugin é utilizado para renomear arquivos.
-
 [gulp-concat](https://www.npmjs.com/package/gulp-concat) :
 Utilizado para concatenar arquivos. Através dele você pode estar juntando todos seus arquivos de javascript num só, embora eu não recomendo.
 
 [browser-sync](https://browsersync.io/) :
 Recarrega a página automaticamente (live load).
 
-Voltando, após isso você deve criar um arquivo chamado `gulpfile.js` na raiz do
+Voltando, agora vamos criar uma pasta chamada static dentro do nosso projeto, nesta
+pasta estaremos salvando nossos arquivos javascript, e dentro de static crie a
+pasta dist (onde será salvo o min.js).
+
+Após isso você deve criar um arquivo chamado `gulpfile.js` na raiz do
 seu projeto, este arquivo irá conter todas as configurações do gulp. Estas serão:
 
 {% highlight  js %}
@@ -118,23 +124,22 @@ var gulp        = require('gulp');
 var browserSync = require('browser-sync');
 var uglify      = require('gulp-uglify');
 var concat      = require('gulp-concat');
-var rename      = require('gulp-rename');
 var jshint      = require('gulp-jshint');
 
 // diretorio dos arquivos js
-var files = "./static/js/*.js"
+var files = "./static/*.js"
 
 // Criamos a tarefa js que será responsavel por validar os arquivos js
 gulp.task('jshint', function() {
-  gulp.src((files)
+  gulp.src(files)
     .pipe(jshint())
     .pipe(jshint.reporter('default')); // imprime no terminal os erros encontrados
 });
 
 // Criamos a tarefa js que será responsavel por minificar os arquivos js
 gulp.task('js', function() {
-  gulp.src((files) // acessa os arquivos
-    .pipe(concat('main.js')) // une todos os js num arquivo chamado main.js
+  gulp.src(files) // acessa os arquivos
+    .pipe(concat('main.min.js')) // une todos os js num arquivo chamado main.js
     .pipe(uglify()) // faz a minificação
     .pipe(gulp.dest('static/dist/')); // salva na pasta dist o arquivo main
 });
@@ -160,8 +165,13 @@ gulp.task('default', ['jshint', 'js', 'browser-sync', 'watch']);
 
 {% endhighlight %}
 
-Depois de escrever as configurações para rodar o gulp é bem simples. Se você não
-definir uma tarefa ele roda por padrão a tarefa default.
+As configurações que escrevemos acima são bem simples certo? O gulp ficará escutando
+os arquivos .js da pasta static e toda vez que algum arquivo for salvo ele vai
+verificar com o JSHint, então vai minificar todo o javascript e por fim recarregar
+a página. Tudo isso automaticamente.
+
+Para rodar o gulp é bem simples. Se você não definir uma tarefa ele roda por
+padrão a tarefa default.
 
 {% highlight  bash %}
 
