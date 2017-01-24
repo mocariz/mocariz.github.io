@@ -69,14 +69,8 @@ function scrollBanner() {
   }
 }
 
-if (screen.width > 1024) {
+if (screen.width > 1024 && document.getElementsByClassName('header-post').length >= 1) {
   window.addEventListener('scroll', scrollBanner);
 }
-
-//Make all the post box item clicable
-$('article.box-item.post').on('click', function() {
-  window.location = $(this).data('url');
-  return false;
-});
 
 })( Zepto, window );

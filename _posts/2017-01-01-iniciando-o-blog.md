@@ -5,7 +5,7 @@ date: 2017-01-01 18:00:00
 image: '/assets/img/'
 description: '"Quando acordei hoje de manhã, eu sabia quem eu era, mas acho que já mudei
 muitas vezes desde então" - Alice Wonderland'
-main-class: 'default'
+main-class: 'life'
 tags:
 - carreira
 categories:
@@ -16,13 +16,14 @@ introduction: 'O empurrão qualquer um pode dar, mas o primeiro passo é nosso, 
 ## Bem vindo
 
 
-`Plazer em conhece-lo.` Meu nome é Mônica, acredito e tenho certeza que você
-está curioso sobre quem é essa pequena que está escrevendo, então vamos lá?
+`Nice to meet you.` Meu nome é Mônica a autora deste blog, acredito que você
+está curioso sobre quem é essa pequena que está escrevendo, não é mesmo?
 
 Olá, meu nome é Mônica Mota Ocariz, tenho 24 anos e acabei de terminar a
 faculdade. Estudei Análise e Desenvolvimento de Sistemas na Faculdade de
 Tecnologia de São José dos Campos - FATEC. Foi um longo percurso, enfrentei
 muitas dificuldades, mas hoje posso dizer com muito orgulho que sou formada!
+(to até pensando em comprar aquela caneca de formado com chapeuzinho pra mim)
 
 Durante meus estudos trabalhei durante 3 anos com desenvolvimento de
 Sistemas Web em Django, e você vai pensar, ah então foi por isso que ela se
@@ -49,7 +50,8 @@ No dia da prova eu imaginei que nunca conseguiria, na época estava com uma
 dor de dente horrível, e só ia no dentista na  proxima semana, mas fiz o
 vestibular mesmo assim e nem acreditei quando passei e 16°! Nunca me achei
 inteligente, embora eu estude bastante sei que tenho dificuldade, sinto que nunca
-vou me esquecer disso. Sempre que penso me sinto alguem tão inteligente!
+vou me esquecer disso. Sempre que penso me sinto alguem tão inteligente! <i>OMG
+passei em 16° lugar!</i>
 
 Mas os primeiros anos da faculdade foram difíceis, por 2 motivos:
 
@@ -57,11 +59,13 @@ Mas os primeiros anos da faculdade foram difíceis, por 2 motivos:
 2. Eu não tinha noção nenhuma de lógica!
 
 Minha rotina não era fácil, resumidamente era escola-trabalho-escola, começava
-4 horas da manha (eu precisava pegar 2 onibus) e se encerrava meia noite. Era
-muito cansativo e eu não tinha tempo pra estudar a não ser o fim de semana,
-onde tinha que dividir entre as duas escolas.
+4 horas da manha e se encerrava meia noite. Era muito cansativo e eu não tinha
+tempo pra estudar a não ser o fim de semana, onde tinha que dividir entre as
+duas escolas.
 
 Por isso mesmo que eu tenha pego DPs, não me sinto mal, por que `eu venci!`
+
+<iframe src="//giphy.com/embed/cQNRp4QA8z7B6" width="480" height="457" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 Mas na faculdade não foi facil, pra falar a verdade, lá eu aprendi 2/4 do básico
  de HTML, nada de CSS e javascript? OMG aprendi na raça quando comecei a

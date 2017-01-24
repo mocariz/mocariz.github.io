@@ -1,19 +1,20 @@
 ---
 layout: post
-title: "Conhecendo  o Gulp"
+title: 'Gulp para Iniciantes'
 date: 2017-01-16 20:30:00
 image: '/assets/img/'
-description: 'Automatize suas tarefas, facilite sua vida com este poderoso
-Task Runner para desenvolvimento front-end'
+description: 'Aprenda a automatizar suas tarefas com Gulp.'
 main-class: 'dev'
 color: '#7AAB13'
 tags:
-- css
-- js
-- frontend
-- tutorial
+- CSS
+- JS
+- Gulp
+- Front-end
+- Task Runners
+- Tutorial
 categories:
-twitter_text: 'Automatizando seu desenvolvimento front-end de forma fácil com gulp'
+twitter_text: 'Automatizando seu desenvolvimento front-end de forma fácil com gulp.'
 introduction: 'Aprenda a automatizar seu ambiente de trabalho no desenvolvimento
 frontend de uma forma bem fácil.'
 ---

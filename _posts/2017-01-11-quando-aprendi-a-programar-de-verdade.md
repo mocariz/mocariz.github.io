@@ -4,7 +4,7 @@ title: "Quando aprendi a programar de verdade"
 date: 2017-01-11 18:00:00
 image: '/assets/img/'
 description: 'No inicio não sabemos direito as coisas, e recorremos ao famoso Ctrl-C + Ctrl-V'
-main-class: 'default'
+main-class: 'life'
 tags:
 - carreira
 categories:
@@ -22,17 +22,17 @@ Downton Abbey, sinceramente embora o Netflix deixe varias vezes a desejar, ainda
 devo agradecer pelo meu irmão assinar :)
 
 No assunto de hoje venho compartilhar uma experiência minha e que acredito que
-muitos passaram ou ainda passam por isso. Eu tive a sorte de ter conhecido a
-pessoa certa e dos eventos que se seguiram após isso.
+muitos passaram ou ainda passam por isso. Eu tive a sorte de ter conhecido as
+pessoas certas e dos eventos que se seguiram após isso.
 
 ## Você programa ou copia?
 
-Quando comecei a aprender a programar eu tinha um custume muito feio `copiar`,
-temos de ser pessoas fortes que são capazes de aprender com nossos erros, por isso
-não tenho vergonha de falar que já fui assim, porque aprendi com isso e melhorei.
+Quando comecei a aprender a programar eu tinha um costume muito feio: `copiar`.
+Errar é humano, é errando que se aprende, por isso não tenha vergonha de ter errado,
+errar nós torna melhores. Foi fazendo errado que aprendi a fazer o certo.
 (agora minhas skills do Ctrl-C Ctrl-V são nivel ninja #brincadeira)
 
-Embora os professores sempre alertasse que não devemos copiar, embora os sites
+Embora os professores sempre alertassem que não devemos copiar, embora os sites
 que oferecem tutoriais sempre digam que não devemos copiar, muitos copiam. Saiba
 que o certo é `digitar` todo o comando ou todo o código.
 
