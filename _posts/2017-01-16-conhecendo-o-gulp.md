@@ -3,7 +3,8 @@ layout: post
 title: "Conhecendo  o Gulp"
 date: 2017-01-16 20:30:00
 image: '/assets/img/'
-description: 'Conhecendo o Gulp'
+description: 'Automatize suas tarefas, facilite sua vida com este poderoso
+Task Runner para desenvolvimento front-end'
 main-class: 'dev'
 color: '#7AAB13'
 tags:
