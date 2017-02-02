@@ -10,11 +10,12 @@ $bg
 		padding rem(180px) 0 rem(66px)
 
 .bar-header
-	background sec
+	background-image url('/assets/img/bg-pattern.png')
+	background-color #bb2f53
 	padding rem(10px) rem(5px)
-	box-shadow 0 -3px 9px #000
 	position fixed
 	width 100%
+	height rem(70px)
 	z-index 10
 	.logo
 		margin 0
@@ -22,18 +23,20 @@ $bg
 	.logo img
 		width 100px
 		float left
+
+.bar-header.toppage, .bar-header.postpage
+	box-shadow 0 3px 10px #b3b3b3
+	background-color sec
 	.logo a
 		font-family 'Carter One', cursive
-		color main
 		text-decoration none
 		font-size rem(48px)
 		&:after
 			position absolute
 			padding 15px 110px
 			font-weight bold
-			color main
 			transition all .4s
-			content ''
+			color rosa
 			+above(cut)
 				content 'Mônica Mota Ocariz'
 
@@ -42,6 +45,7 @@ $bg
 	@extends $bg
 	min-height rem(500px)
 	width 100%
+	background-image url('/assets/img/bg-pattern.png')
 	.content
 		margin auto
 		max-width rem(800px)
