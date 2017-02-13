@@ -1,19 +1,18 @@
 ---
 layout: default
-main-class: 'misc'
+main-class: 'life'
 ---
 
 <main class="home" id="scroll" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
-    <h1 class="title-category">Miscelânia</h1>
+    <h1 class="title-category">Life</h1>
     <div id="grid" class="row flex-grid">
     {% for post in site.posts %}
-        {% if post.main-class == 'misc' %}
+        {% if post.main-class == 'life' %}
             <article class="box-item post-{{post.main-class}}" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-                <span class="ribbon"><span>{{post.main-class}}</span></span>
                     <div class="box-body">
                         <meta itemprop="datePublished" content="{{post.date | date_to_xmlschema }}">
-                        <time datetime="{{ post.date | date_to_xmlschema }}">
-                            {{ post.date | date: "%B %d, %Y" }}
+                        <time datetime="{{ post.date| date_to_xmlschema }}">
+                          {% include post-date.html %}
                         </time>
                         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
                             <h2 class="post-title" itemprop="name">
