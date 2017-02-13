@@ -8,12 +8,18 @@ themes = {
 }
 
 for theme, category-color in themes
-    .post.{theme}
-      border 3px double category-color
     .box-item.{theme}
       &:hover
         box-shadow 1px 2px 10px category-color
+      .box-data span a
+        color category-color
+        border-color category-color
+      .box-title
+        &:before
+          background-color category-color
     .{theme}
+        .bar-header
+          background-color category-color
         .title-category
             color category-color
         .post-content
@@ -72,3 +78,5 @@ for theme, category-color in themes
             &:after
                 border-right 3px solid darken(category-color, 30%)
                 border-top 3px solid darken(category-color, 30%)
+        footer
+            background category-color

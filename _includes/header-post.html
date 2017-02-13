@@ -1,10 +1,14 @@
-<header class="bar-header">
+<header class="bar-header {{ page.main-class }}">
     <h1 class="logo">
-        <img src="/./assets/img/panda.jpg" alt="" />
-        <a href="{{site.baseurl}}/"></a>
+        <a href="{{site.baseurl}}/">
+          <img src="/./assets/img/logo_white.png" alt="Blog Mônica Mota Logo" />
+        </a>
     </h1>
 </header>
-{% include menu-search.html %}
+<div class="postpage">
+  {% include menu-search.html %}
+</div>
+
 
 <header class="header-post" role="banner">
      <div class="content">
