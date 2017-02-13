@@ -20,9 +20,24 @@ $bg
 	.logo
 		margin 0
 		line-height rem(35px)
+		a
+			font-family 'Carter One', cursive
+			color sec
+			text-decoration none
+			font-size rem(48px)
+			&:after
+				position absolute
+				padding 15px 110px
+				font-weight bold
+				transition all .4s
+				content ''
+				+above(cut)
+					content 'Mônica Mota Ocariz'
 	.logo img
-		width 100px
+		width 75px
 		float left
+		margin-top rem(-13px)
+		margin-left rem(10px)
 
 // Header Post
 .header-post
