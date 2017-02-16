@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Blog Novo, layout novo"
+title: "Mudei para o Jekyll, como e porque?"
 date: 2017-02-16 20:04:00
 image: '/assets/img/posts/2016_02_16_novo_layout.png'
-description: "Blog de cara novo, com roupa nova."
+description: "Blog feito em Jekyll e GitHub Pages"
 main-class: layout
 tags:
 - layout
 - Jekyll
-twitter_text: 'Novo blog feito em Jekyll com roupa nova'
+twitter_text: "Mudei o blog para o Jekyll com GitHub Pages"
 introduction: 'Descubra como e porque resolvi mudar o blog para Jekyll'
 ---
 
