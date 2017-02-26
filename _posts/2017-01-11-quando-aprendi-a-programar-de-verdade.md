@@ -2,7 +2,7 @@
 layout: post
 title: "Quando aprendi a programar de verdade"
 date: 2017-01-11 18:00:00
-image: '/assets/img/'
+image: '/assets/img/posts/2017-01-11-programing.png'
 description: 'No inicio não sabemos direito as coisas, e recorremos ao famoso Ctrl-C + Ctrl-V'
 main-class: 'life'
 tags:
