@@ -2,7 +2,7 @@
 layout: post
 title: "Mudei para o Jekyll, como e porque?"
 date: 2017-02-16 20:04:00
-image: '/assets/img/posts/2016_02_16_novo_layout.png'
+image: '/assets/img/posts/novo-blog-jekyll.png'
 description: "Blog feito em Jekyll e GitHub Pages"
 main-class: layout
 tags:

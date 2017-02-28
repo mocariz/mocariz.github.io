@@ -4,6 +4,7 @@ title: "Como criar um Modal Dinâmico usando diretiva do Angular.js e Bootstrap"
 date: "2017-02-23 21:30"
 description: "Aprenda a escrever uma diretiva para a criação dinâmica de um modal
 e remova a redundância de cógido usando Angular.js e Bootstrap!"
+image: '/assets/img/posts/diretiva-modal-angular.png'
 main-class: javascript
 color:
 tags:
