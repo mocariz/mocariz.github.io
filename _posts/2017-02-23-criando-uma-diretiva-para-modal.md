@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Como criar um Modal Dinâmico usando diretiva do Angular.js e Bootstrap"
+title: "Como criar uma Diretiva em AngularJS para geração de um Modal"
 date: "2017-02-23 21:30"
 description: "Aprenda a escrever uma diretiva para a criação dinâmica de um modal
 e remova a redundância de cógido usando Angular.js e Bootstrap!"
@@ -24,10 +24,10 @@ e remova a redundância de cógido usando Angular.js e Bootstrap!"
 Hi everyone!
 
 Hoje é uma quinta-feira e com a barriga cheia de pizza (comi DEMAIS) venho
-escrever pra vocês e dessa vez estou assistindo <a href="http://kissasian.com/Drama/Tomorrow-With-You">Tomorrow with You</a>,
+escrever pra vocês e dessa vez estou assistindo [Tomorrow with You](http://kissasian.com/Drama/Tomorrow-With-You),
 engraçado neh, como você está escrevendo e assistindo série? é gente sou assim mesmo.
 
-## Quem nunca teve que escrever o mesmo código duas vezes?
+## Quem nunca teve que escrever o mesmo código duas vezes em lugares diferentes?
 
 Não existe alguem que nunca tenha passado por isso! Mesmo que seja no inicio, a gente
 passa por essa situação e sempre chegamos ao mesmo ponto: Como fazer para não precisar
@@ -37,16 +37,18 @@ hoje é nesta linha de pensamento.
 ### Problema
 
 Imagine que você tem um site, onde em várias páginas utiliza um modal. Você precisa
-escrever o mesmo código 1, 2, 5 vezes. Como fazer para não precisar escrever o mesmo
+escrever aquela estrutura do modal 1, 2, 5 vezes. Como fazer para não precisar escrever o mesmo
 html tantas vezes?
 
 O objetivo é construir uma diretiva em Angular.js para a criação de um Modal
-utilizando Bootstrap.
-
+utilizando Bootstrap. No final deste post você poderá gerar um modal como o mostrado
+abaixo atravéz da diretiva que desenvolveremos:
+![Modal Bootstrap](/assets/img/posts/modal.png)
 ## Lets Start
 
 O primeiro passo é criar o diretiva, irei levar em conta que você já possui conhecimento
 prévio em Angular.js então não entrarei em detalhes. Na diretiva escreveremos:
+
 {% highlight  bash %}
 app.directive("dinamicModal", function() {
     return {
@@ -62,15 +64,23 @@ app.directive("dinamicModal", function() {
 });
 {% endhighlight %}
 
-No código acima vale destacar 3 pontos:
+Na primeira linha criamos a diretiva `dinamicModal`.
 
-- replace: todos parametros passados na tag da diretiva serão escritos no html do modal.
-- transclude: todo html escrito dentro da tag da diretiva será inserido no corpo do modal
-- scope: aqui definimos algumas variaveis que o modal irá receber.
+Na terceira linha definimos como do tipo `E`, ou seja, sempre que formos chama-la
+no template será através de uma tag html `dinamic-modal`.
 
-Após isso devemos criar o template com o código base do Modal, aquele que não queremos
-ficar repetindo.
+Como definimos replace como True na quarta linha, tudo que for colocado no dentro da tag
+será adicionado a primeira linha do html do modal.
 
+Além disso na quinta linha definimos transclude como True, isso significa que todo o
+conteudo escrido dentro da tag `<dinamic-modal></dinamic-modal>` vai ser colocado
+dentro da div que conter a tag do angular `ng-transclude`.
+
+No template definimos o template que contém o html da estrutura do modal. E no scope
+podemos definir variaveis do controller que desejarmos passar para o modal.
+
+Após entender o que a diretiva que escrevemos faz, devemos criar o template com a
+estrutura do modal. Neste passo a passo usaremos o Bootstrap para criar um modal.
 {% highlight html %}
 <!-- Modal -->
 <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
