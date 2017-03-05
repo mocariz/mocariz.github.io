@@ -42,7 +42,7 @@ html tantas vezes?
 
 O objetivo é construir uma diretiva em Angular.js para a criação de um Modal
 utilizando Bootstrap. No final deste post você poderá gerar um modal como o mostrado
-abaixo atravéz da diretiva que desenvolveremos:
+abaixo através da diretiva que desenvolveremos:
 ![Modal Bootstrap](/assets/img/posts/modal.png)
 ## Lets Start
 
