@@ -2,7 +2,8 @@
 layout: "post"
 title: "Entendendo como funciona o Escopo nas diretivas do AngularJS"
 date: "2017-03-08 21:30"
-description: "Entenda como funciona a váriavel scope nas diretivas do angularJS"
+description: "Entenda as configurações o scope dentro das diretivas do
+AngularJS"
 image: ""
 main-class: "javascript"
 tags:
@@ -27,7 +28,7 @@ A alguns dias atrás escrevi sobre como [Criar uma diretiva para gerar um modal]
 escrever sobre isso eu fiquei me perguntando sobre o quão longe pode ir os dados
 que passamos no `scope`.
 
-Pelo scoppelo e podemos conectar dados e funções entre directivas e/ou entre controllers.
+Pelo scope e podemos conectar dados e funções entre directivas e/ou entre controllers.
 É incrivel como podemos fazer diretivas trabalharem entre si tornando bem flexível.
 
 ## Você entende como funciona herança no AngularJS?
@@ -42,7 +43,7 @@ acaba que sempre acabamos herdando as configurações do $rootScope.
 Sempre que queremos herdar um objeto no angular colocamos este dentro do scope. Escopos podem
 ser herdados, variávies declaradas não. O scope pode ser passado entre directives, controllers e services.
 
-![Piramide de herança no angular]('monicamota.com.br/assets/img/posts/angular-heranca.png')
+![Piramide de herança no angular](/assets/img/posts/angular-heranca.png)
 
 Quando criamos uma diretiva o scope pode assumir 3 caminhos diferentes:
 - true
