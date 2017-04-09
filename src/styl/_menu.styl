@@ -13,10 +13,21 @@ a, aside, .overlay, body
 a.slideButton, .dosearch
     position fixed
     display block
-    width 40px
-    height 40px
-    top rem(15px)
+    top rem(9px)
     z-index 17
+    border 1px solid main
+    padding-right 12px
+    bottom 600px
+    border-radius 5px
+    cursor pointer
+    span
+        color main
+        font-size rem(18px)
+        font-weight bold
+        position relative
+        display inline-flex
+        top -10px
+
 .slideButton
     right 60px
 .dosearch
@@ -27,9 +38,10 @@ a.slideButton, .dosearch
     cursor pointer
     padding rem(5px)
     border-radius rem(3px)
-    width rem(40px)
-    height rem(40px)
-    fill sec
+    width rem(35px)
+    height rem(35px)
+    fill main
+
 .icon-search
     width rem(35px)
     height rem(35px)
@@ -40,11 +52,13 @@ a.slideButton, .dosearch
 #close
     display none
     fill sec
+    background main
+    background-image url('/assets/img/bg-pattern.png')
 
 aside
     position fixed
     height 100%
-    width rem(310px)
+    width rem(250px)
     padding rem(40px) 0 0
     top 0
     right rem(-310px)
@@ -73,18 +87,28 @@ aside
                 text-decoration none
                 mainFont(300)
                 color sec
-                border-top 1px solid sec
+                cursor pointer
                 &:hover
                     color main
                     background sec
-        .feed
-            border-bottom 1px solid sec
+        ul.rss
+            margin-top 100%
+            a
+                text-align center
+                background sec
+                color main
+                width 150px
+                padding 13px
+                margin auto
+                border-radius 10px
+                font-weight bold
+
     &.slide
         right 0
 
 
 .slide #close
-    right rem(320px)
+    right rem(245px)
     position fixed
     pointer-events none
 

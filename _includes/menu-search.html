@@ -8,7 +8,10 @@
 
 <div id="fade" class="overlay"></div>
 <a id="slide" class="slideButton fade">
-    <svg id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg>
+    <svg id="open" class="icon-menu">
+        <use xlink:href="#icon-menu"></use>
+    </svg>
+    <span>Menu</span>
     <svg id="close" class="icon-menu"><use xlink:href="#icon-close"></use></svg>
 </a>
 <aside id="sidebar">
@@ -18,10 +21,14 @@
     {% for link in site.links %}
       <li><a href="{{ site.url }}{{site.baseurl}}{{ link.url }}">{{ link.title }}</a></li>
     {% endfor %}
-    <li><a class="feed" href="{{ site.url }}{{site.baseurl}}/feed.xml" title="Atom/RSS feed">Feed</a></li>
+  </ul>
+  <ul class="rss">
+      <li><a href="{{ site.url }}{{site.baseurl}}/feed.xml" title="RSS feed">RSS Feed</a></li>
   </ul>
 </nav>
 </aside>
+<!--
 <a id="search" class="dosearch">
     <svg class="icon-menu icon-search"><use xlink:href="#icon-search"></use></svg>
 </a>
+-->

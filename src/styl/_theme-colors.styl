@@ -20,6 +20,15 @@ for theme, category-color in themes
     .{theme}
         .bar-header
           background-color category-color
+          background-image url('/assets/img/bg-pattern.png')
+          height 55px
+          .logo a
+      	     color white
+        a.slideButton
+            border-color sec
+            span, .icon-menu
+                color sec
+                fill sec
         .title-category
             color category-color
         .post-content
@@ -45,8 +54,17 @@ for theme, category-color in themes
             background-color category-color
             h1
                 text-shadow 3px 3px darken(category-color, 20%)
+        #close
+            background category-color
         aside
-          background-color category-color
+            background-color category-color
+            a:hover
+                color category-color
+                font-weight bold
+            ul.rss
+                a
+                    background sec
+                    color category-color
         .author .email,
         .author .github
             color category-color
