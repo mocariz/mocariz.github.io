@@ -4,7 +4,8 @@
   "description": "Um blog sobre tecnologias e conhecimentos adquiridos, com foco em frontend",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "gulp": "gulp"
   },
   "keywords": [
     "frontend",
