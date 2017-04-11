@@ -87,7 +87,7 @@ Este ponto é interessante, com está função evitamos ter que fazer aquela *ga
 Depois você deve criar o HTML da diretiva, eu coloque no arquivo FileUploadTemplate.html
 {% highlight html %}
     <!-- personalized button -->
-    <button class="btn btnSelectFile" ng-class="{'btn-primary': myFile != undefined}">
+    <button class="btn btnSelectFile">
         <a href="javascript: void(0)">Clique para selecionar um arquivo</a>
     </button>
     <span ng-bind-template="{{ myFile.name }}" title="{{ myFile.name }}"></span>
