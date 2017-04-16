@@ -43,7 +43,7 @@ Legal né? e se é rápido significa que é facil!
 
 ### AngularSeed
 
-O angularSeed é um porjeto contendo toda a estrutura básica de um projeto Angular. Trabalha com o AngularJS 1
+O angularSeed é um projeto contendo toda a estrutura básica de um projeto Angular. Trabalha com o AngularJS 1
 
 Para usar é muito fácil, você só precisa ter conhecimentos básicos de Git e NodeJS.
 
