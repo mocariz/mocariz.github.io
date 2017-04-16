@@ -3,7 +3,7 @@ layout: "post"
 title: "Customizando File Input Buttom"
 date: "2017-04-09 22:00"
 description: "Aprenda como personalizar seu botão de upload de maneira fácil e sem redundância!"
-image: ""
+image: "/assets/img/posts/2017-04-09-diretiva-botão-upload-file.png"
 main-class: "javascript"
 tags:
 - AngularJS

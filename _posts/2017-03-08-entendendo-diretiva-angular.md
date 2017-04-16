@@ -4,7 +4,7 @@ title: "Entendendo como funciona o Escopo nas diretivas do AngularJS"
 date: "2017-03-08 21:30"
 description: "Entenda as configurações o scope dentro das diretivas do
 AngularJS"
-image: ""
+image: "/assets/img/posts/2017-03-08-entendendo-diretiva-angular.png"
 main-class: "javascript"
 tags:
 - AngularJS
