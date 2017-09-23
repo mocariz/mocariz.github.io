@@ -2,126 +2,203 @@
     -moz-box-sizing border-box
     -webkit-box-sizing border-box
     box-sizing border-box
-
-body
-  left 0
-  right 0
-  margin auto
-
-a, aside, .overlay, body
-    transition all .25s ease
-a.slideButton, .dosearch
-    position fixed
+    
+nav
     display block
-    top rem(9px)
-    z-index 17
-    border 1px solid main
-    padding-right rem(12px)
-    border-radius 5px
-    cursor pointer
-    span
-        color main
-        font-size rem(18px)
-        font-weight bold
-        position relative
-        display inline-flex
-        top -10px
 
-.slideButton
-    right 60px
-.dosearch
-    right 10px
-    border-radius rem(3px)
-    padding rem(2px) rem(3px)
-.icon-menu
-    cursor pointer
-    padding rem(5px)
-    border-radius rem(3px)
-    width rem(35px)
-    height rem(35px)
-    fill main
+.center-block
+    display block
+    margin-right auto
+    margin-left auto
 
-.icon-search
-    width rem(35px)
-    height rem(35px)
+.pull-right
+    float right !important
 
-.overlay
-    cursor pointer
+.pull-left
+    float left !important
+    
+.z-index-10
+    z-index 10
+    
+img 
+    vertical-align middle
+    border 0
+    
+.sm-full-width
+    +below(cut)
+        width 100%
+        height auto !important
 
-#close
-    display none
-    fill sec
-    background main
-    background-image url('/assets/img/bg-pattern.png')
-
-aside
-    position fixed
-    height 100%
-    width rem(250px)
-    padding rem(40px) 0 0
+.header
+    position: fixed
     top 0
-    right rem(-310px)
-    background-image url('/assets/img/bg-pattern.png')
-    background-color #bb2f53
-    color white
-    z-index 120
-    box-shadow inset -10px -1px 15px -9px rgba(0,0,0,0.5)
-    h2
-        font-family cursive !important
-        font-family 'Open Sans', sans-serif
-        text-align center
-        margin 0 0 rem(10px)
-        mainFont(800)
-        font-size rem(35px)
-        color sec
-    nav
-        ul
-            padding 0
-        li
-            margin 0
-            list-style-type none
-            a
-                width 100%
-                display block
-                padding rem(20px)
-                text-decoration none
-                mainFont(300)
-                color sec
-                cursor pointer
-                &:hover
-                    color main
-                    background sec
-        ul.rss
-            margin-top 100%
-            a
-                text-align center
-                background sec
-                color main
-                width 150px
-                padding 13px
-                margin auto
-                border-radius 10px
-                font-weight bold
-
-    &.slide
-        right 0
-
-
-.slide #close
-    right rem(245px)
-    position fixed
-    pointer-events none
-
-.overlay
-    position fixed
+    height rem(60px)
     width 100%
-    height 100%
-    top 0
-    right 0
-    pointer-events none
-    background transparent
-    z-index 17
-    &.slide
-        pointer-events auto
-        right 240px
-        background rgba(0,0,0,.6)
+    z-index 800
+    -webkit-transition background 0.4s ease,height 0.4s ease
+    transition background 0.4s ease,height 0.4s ease
+    &.minimized
+        border-bottom 1px solid #f0f0f0
+        background-color #fafafa
+        font-weight 300
+        .alt 
+            display inline-block
+        .menu-toggler 
+            -webkit-transition all 0.4s ease;
+            transition all 0.4s ease
+            opacity 1
+            width rem(15px)
+            height rem(15px)
+            margin-top rem(22.5px)
+            display inline-block
+            user-select none
+            box-sizing content-box
+            cursor pointer
+            +below(cut)
+                display inline
+            +above(cut)
+                display none
+            .one
+            .two
+            .three
+                background #000
+                width 100%
+                height rem(2px)
+                margin-bottom rem(3px)
+                -webkit-transition all 0.3s
+                transition all 0.3s
+                backface-visibility hidden
+                -webkit-transform-style preserve-3d
+            .one
+                transform rotate3d(0,0,1,0deg) translate3d(0,0,0)
+            .two
+                transform rotate3d(0,0,1,0deg) translate3d(0,0,0)
+                
+    .pull-left
+        position relative
+    .header-inner
+        line-height rem(60px)
+        width 100%
+        transition line-height 0.4s ease
+        +below(cut)
+            line-height 0
+        .menu
+            margin 0
+            transform none !important
+            display inline-block
+            line-height 0
+            ul
+                li
+                    padding-left rem(3px)
+                    line-height rem(24px)
+            li
+                display inline-block
+                list-style none
+                font-size rem(14px)
+                margin-right rem(12px)
+                vertical-align middle
+                font-family cursive
+                font-weight bold
+                a
+                    color #000
+                    opacity 0.5
+                    position relative
+                    text-transform uppercase
+                    display block
+                    padding-right rem(21px)
+                    text-decoration none
+                    outline 0
+                    letter-spacing 0.01em
+                    &:hover
+                        color: main
+            +below(cut)
+                width 100%
+                padding 0
+        a
+            text-decoration none
+            .icon-search
+                width: 15px;
+                height: 15px;
+                fill: #000;
+                opacity 0.5
+                &:hover
+                    fill: main
+                svg
+                    cursor pointer
+                    position fixed
+                    right 19.6%
+                    top 23px
+                +below(cut)
+                    right rem(20px) !important
+                    opacity 1
+    .container
+        width auto
+        max-width: 75rem;
+        padding-right rem(15px)
+        padding-left rem(15px)
+        margin-right auto
+        margin-left auto
+        
+        &:before
+            display table
+            content " "
+        &:after
+            clear both
+            display table
+            content " "
+            
+        &.relative
+            position relative
+            
+        .pull-center 
+            position absolute
+            left 0
+            right 0
+            
+        .pull-center-inner
+            display table
+            margin 0 auto
+        .menu-content
+            &:before
+                display table
+                content " "
+            +below(cut)
+                display block
+                width 270px
+                position fixed
+                top 0
+                bottom 0
+                left 0
+                height 100%
+                background-color #fff
+                z-index 10
+                overflow-y auto
+                li
+                    display block
+                    list-style none
+                    font-size 13px
+                    vertical-align middle
+                    padding 0
+                    margin-right 0 !important
+            .close-menu
+                padding rem(15px)
+                +below(cut)
+                    display inline
+            .icon-close
+                margin-top rem(20px)
+                margin-bottom rem(20px)
+                opacity 0.7
+                width 15px
+                height 15px
+                fill #2c2c2c
+                &:hover
+                    fill: main
+                svg
+                    cursor pointer
+                    position fixed
+                    right 19.6%
+                    top 23px
+                +below(cut)
+                    right rem(20px) !important
+                    opacity 1
+            
