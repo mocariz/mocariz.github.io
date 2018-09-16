@@ -1,204 +1,172 @@
-*, *:before, *:after
+*, *before, *after
     -moz-box-sizing border-box
     -webkit-box-sizing border-box
     box-sizing border-box
-    
-nav
-    display block
 
-.center-block
-    display block
-    margin-right auto
-    margin-left auto
+header
+    #control-nav
+        visibility hidden
+        position absolute
+        left -9999px
+        &:checked
+            & ~ .control-nav-close
+                -webkit-transform translate(0, 0)
+                -ms-transform translate(0, 0)
+                transform translate(0, 0)
+            & ~ nav
+                .container
+                    -webkit-transform translate(0, 0)
+                    -ms-transform translate(0, 0)
+                    transform translate(0, 0)
 
-.pull-right
-    float right !important
+    .control-nav
+        &:before
+            content ""
+            display block
+            height 3px
+            background #333
+        +below(cut)
+            position absolute
+            right 20px
+            top 20px
+            display block
+            width 30px
+            padding 5px 0
+            border solid #333
+            border-width 3px 0
+            z-index 11
+            cursor pointer
 
-.pull-left
-    float left !important
-    
-.z-index-10
-    z-index 10
-    
-img 
-    vertical-align middle
-    border 0
-    
-.sm-full-width
-    +below(cut)
-        width 100%
-        height auto !important
+    .control-nav-close
+        +below(cut)
+            position fixed
+            right 0
+            top 0
+            bottom 0
+            left 0
+            display block
+            z-index 1
+            background rgba(0,0,0,0.4)
+            -webkit-transition all 500ms ease
+            transition all 500ms ease
+            -webkit-transform translate(100%, 0)
+            -ms-transform translate(100%, 0)
+            transform translate(100%, 0)
 
-.header
-    position: fixed
-    top 0
-    height rem(60px)
-    width 100%
-    z-index 800
-    -webkit-transition background 0.4s ease,height 0.4s ease
-    transition background 0.4s ease,height 0.4s ease
-    &.minimized
-        border-bottom 1px solid #f0f0f0
-        background-color #fafafa
+    .pull-right
+        float right
+        +below(cut)
+            float none
+
+    .pull-left
+        float left !important
+        position relative
+        +below(cut)
+            float none
+            position unset
+
+    img 
+        vertical-align middle
+        border 0
+        +below(cut)
+            position absolute
+            top 20px
+            display block
+            width 32%
+            z-index 11
+            left 10px
+
+    nav
+        display block
+        position fixed
+        top 0
+        right 0
+        left 0
+        height rem(70px)
+        z-index 10
+        border-bottom 1px solid #eeeeee7d
+        box-shadow 1px 1px 5px 1px #eeeeee73
+        background-color #ffffff
         font-weight 300
         .alt 
-            display inline-block
-        .menu-toggler 
-            -webkit-transition all 0.4s ease;
-            transition all 0.4s ease
-            opacity 1
-            width rem(15px)
-            height rem(15px)
-            margin-top rem(22.5px)
-            display inline-block
-            user-select none
-            box-sizing content-box
-            cursor pointer
+            display inline-block                
+        .header-inner
+            line-height rem(70px)
             +below(cut)
-                display inline
-            +above(cut)
-                display none
-            .one
-            .two
-            .three
-                background #000
-                width 100%
-                height rem(2px)
-                margin-bottom rem(3px)
-                -webkit-transition all 0.3s
-                transition all 0.3s
-                backface-visibility hidden
-                -webkit-transform-style preserve-3d
-            .one
-                transform rotate3d(0,0,1,0deg) translate3d(0,0,0)
-            .two
-                transform rotate3d(0,0,1,0deg) translate3d(0,0,0)
-                
-    .pull-left
-        position relative
-    .header-inner
-        line-height rem(60px)
-        width 100%
-        transition line-height 0.4s ease
-        +below(cut)
-            line-height 0
-        .menu
-            margin 0
-            transform none !important
-            display inline-block
-            line-height 0
-            ul
-                li
-                    padding-left rem(3px)
-                    line-height rem(24px)
-            li
+                line-height 0px
+            .menu
+                transform none !important
                 display inline-block
-                list-style none
-                font-size rem(14px)
-                margin-right rem(12px)
-                vertical-align middle
-                font-family cursive
-                font-weight bold
-                a
-                    color #000
-                    opacity 0.5
-                    position relative
-                    text-transform uppercase
-                    display block
-                    padding-right rem(21px)
-                    text-decoration none
-                    outline 0
-                    letter-spacing 0.01em
-                    &:hover
-                        color: main
-            +below(cut)
-                width 100%
-                padding 0
-        a
-            text-decoration none
-            .icon-search
-                width: 15px;
-                height: 15px;
-                fill: #000;
+                line-height 0
+                +below(cut)
+                    line-height 30px
+                li
+                    display inline-block
+                    list-style none
+                    font-size rem(14px)
+                    margin-right rem(12px)
+                    vertical-align middle
+                    font-family cursive
+                    font-weight bold
+                    a
+                        text-transform uppercase
+                        padding-right rem(21px)
+                        letter-spacing 0.01em
+                        &hover
+                            color main
+                    +below(cut)
+                        display block
+                &.second
+                    +below(cut)
+                        margin-top -15px
+            a
+                text-decoration none
+                color #000
                 opacity 0.5
-                &:hover
-                    fill: main
-                svg
+                .icon-search
+                    width 15px
+                    height 15px
                     cursor pointer
-                    position fixed
                     right 19.6%
                     top 23px
+                    +below(cut)
+                        display none !important
+                    &hover
+                        fill main
+        .container
+            width auto
+            max-width 55rem;
+            padding-right rem(15px)
+            padding-left rem(15px)
+            margin-right auto
+            margin-left auto
+                
+            .pull-center 
+                position absolute
+                left 0
+                right 0
+                .pull-center-inner
+                    display table
+                    margin 0 auto
                 +below(cut)
-                    right rem(20px) !important
-                    opacity 1
-    .container
-        width auto
-        max-width: 75rem;
-        padding-right rem(15px)
-        padding-left rem(15px)
-        margin-right auto
-        margin-left auto
-        
-        &:before
-            display table
-            content " "
-        &:after
-            clear both
-            display table
-            content " "
-            
-        &.relative
-            position relative
-            
-        .pull-center 
-            position absolute
-            left 0
-            right 0
-            
-        .pull-center-inner
-            display table
-            margin 0 auto
-        .menu-content
-            &:before
-                display table
-                content " "
+                    display none          
             +below(cut)
-                display block
-                width 270px
                 position fixed
                 top 0
+                right 0
                 bottom 0
-                left 0
-                height 100%
-                background-color #fff
-                z-index 10
-                overflow-y auto
-                li
-                    display block
-                    list-style none
-                    font-size 13px
-                    vertical-align middle
-                    padding 0
-                    margin-right 0 !important
-            .close-menu
-                padding rem(15px)
-                +below(cut)
-                    display inline
-            .icon-close
-                margin-top rem(20px)
-                margin-bottom rem(20px)
-                opacity 0.7
-                width 15px
-                height 15px
-                fill #2c2c2c
-                &:hover
-                    fill: main
-                svg
-                    cursor pointer
-                    position fixed
-                    right 19.6%
-                    top 23px
-                +below(cut)
-                    right rem(20px) !important
-                    opacity 1
-            
+                width 175px
+                border-left 1px solid #ccc
+                background #fff
+                overflow-x auto
+                z-index 2
+                -webkit-transition all 500ms ease
+                transition all 500ms ease
+                padding-left 0px
+                -webkit-transform translate(100%, 0)
+                -ms-transform translate(100%, 0)
+                transform translate(100%, 0)
+                .menu-content
+                    margin-top 35px
+        +below(cut)
+            height rem(50px)

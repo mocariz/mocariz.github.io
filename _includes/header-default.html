@@ -1,56 +1,51 @@
-<nav class="header minimized">
-	<div class="container relative">
-    	<div class="pull-left z-index-10">
-        	<div class="visible-sm-inline visible-xs-inline menu-toggler pull-right">
-            	<div class="one"></div>
-            	<div class="two"></div>
-            	<div class="three"></div>
+<header>
+	<a>
+		<img src="assets/img/logo-header.png" width="152" height="21" data-src-retina="assets/images/logo_black_2x.png" class="alt" alt="">
+	</a>
+	<input type="checkbox" id="control-nav" />
+	<label for="control-nav" class="control-nav"></label>
+	<label for="control-nav" class="control-nav-close"></label>
+
+	<nav>
+		<div class="container">
+			<div class="pull-center">
+				<div class="pull-center-inner">
+					<div class="header-inner ">
+						<img src="assets/img/logo-header.png" width="152" height="21" data-src-retina="assets/images/logo_black_2x.png" class="alt" alt="">
+					</div>
+				</div>
 			</div>
-		</div>
-		<div class="pull-center">
-			<div class="pull-center-inner">
-            	<div class="header-inner ">
-					<img src="assets/img/logo-header.png" width="152" height="21" data-src-retina="assets/images/logo_black_2x.png" class="alt" alt="">
+			<div class="menu-content clearfix" id="header">
+				<div class="pull-left">
+					<div class="header-inner">
+						<ul class="menu">
+							<li class="open">
+								<a href="index.html" data-text="Home">Home</a>
+							</li>
+							<li>
+								<a href="pricing.html" data-text="Pricing" class="active">Pricing</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="pull-right">
+					<div class="header-inner">
+						<ul class="menu second">
+							<li>
+								<a href="portfolio.html" data-text="Portfolio">Portfolio </a>
+							</li>
+							<li>
+								<a href="contact.html" data-text="Contact Us">Contact Us</a>
+							</li>
+						</ul>
+						<a id="search" class="dosearch">
+							<svg class="icon-menu icon-search" style="display: inline;">
+								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-search"></use>
+							</svg>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="menu-content clearfix" id="header">
-			<div class="pull-left">
-	            <a class="close-menu">
-	            	<svg class="icon-menu icon-close">
-	            		<use xlink:href="#icon-close"></use>
-	            	</svg>
-	            </a>
-			</div>
-			<div class="pull-left sm-full-width">
-				<div class="header-inner">
-					<ul class="menu">
-						<li class="open">
-							<a href="index.html" data-text="Home">Home</a>
-						</li>
-						<li>
-							<a href="pricing.html" data-text="Pricing" class="active">Pricing</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="pull-right sm-full-width">
-				<div class="header-inner">
-					<ul class="menu">
-						<li>
-							<a href="portfolio.html" data-text="Portfolio">Portfolio </a>
-						</li>
-						<li>
-							<a href="contact.html" data-text="Contact Us">Contact Us</a>
-						</li>
-					</ul>
-					<a id="search" class="dosearch">
-						<svg class="icon-menu icon-search" style="display: inline;">
-							<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-search"></use>
-						</svg>
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</nav>
+	</nav>
+</header>
