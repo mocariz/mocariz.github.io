@@ -33,6 +33,8 @@
     "jeet": "^6.1.2",
     "kouto-swiss": "^0.11.14",
     "minimist": "^1.2.0",
-    "rupture": "^0.6.1"
+    "rupture": "^0.6.1",
+    "lodash": ">=4.17.5",
+    "minimatch": ">=3.0.2"
   }
 }
