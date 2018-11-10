@@ -8,15 +8,6 @@ themes = {
 }
 
 for theme, category-color in themes
-    .box-item.{theme}
-      &:hover
-        box-shadow 1px 2px 10px category-color
-      .box-data span a
-        color category-color
-        border-color category-color
-      .box-title
-        &:before
-          background-color category-color
     .{theme}
         .bar-header
           background-color category-color
