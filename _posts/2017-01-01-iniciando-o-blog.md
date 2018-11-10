@@ -5,7 +5,9 @@ date: 2017-01-01 18:00:00
 image: '/assets/img/posts/2017-01-01-blog-start.png'
 description: '"Quando acordei hoje de manhã, eu sabia quem eu era, mas acho que já mudei
 muitas vezes desde então" - Alice Wonderland'
-main-class: 'life'
+main-class: life
+home-style: size-2
+box-style: "background-color: #000;"
 tags:
 - carreira
 categories:

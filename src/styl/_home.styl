@@ -1,121 +1,74 @@
 main
-    padding-top rem(140px)
+    padding-top rem(120px)
     padding-bottom rem(50px)
+    +below(cut)
+        padding rem(100px) 0 0 0
 
 .row
-    center(rem(1200px))
+    center(rem(1300px))
 
 .flex-grid
     display flex
     flex-flow row wrap
 
-.title-category
-    center(rem(1000px))
-    font-size rem(40px)
-    margin-top 0
-    text-transform uppercase
-    padding 0 rem(15px)
-
 .box-item
-    border 1px solid #ddd
-    flex 1 0 300px
-    margin 0 rem(15px) rem(50px)
-    display inline-block
-    border-radius 4px
-    min-height rem(225px)
-    transition all .3s
+    width rem(190px)
+    margin 0 rem(10px) rem(30px)
     position relative
-    .box-data
-      display table
-      width 100%
-      height rem(55px)
-      text-align right
-      padding rem(15px) rem(20px) 0 0
-      margin-bottom rem(-5px)
-      time
-        font-size rem(14px)
-        color #b2bac2
-      span
-        float left
-        padding rem(5px) 0 0 rem(20px)
-        font-size rem(12px)
-        font-weight bold
-        text-transform uppercase
-        a
-          color main
-          border rem(1px) solid #bb2f53
-          padding rem(8px) rem(8px) rem(5px) rem(8px)
-          border-radius rem(5px)
-          box-shadow rem(1px) rem(1px) rem(2px) #b9c7c2
-    .box-title
-      height rem(200px)
-      display flex
-      -moz-transition -moz-transform 0.25s ease, opacity 0.25s ease, -moz-filter 1s ease, -webkit-filter 1s ease
-      -webkit-transition -webkit-transform 0.25s ease, opacity 0.25s ease, -webkit-filter 1s ease, -webkit-filter 1s ease
-      -ms-transition -ms-transform 0.25s ease, opacity 0.25s ease, -ms-filter 1s ease, -webkit-filter 1s ease
-      transition transform 0.25s ease, opacity 0.25s ease, filter 1s ease, -webkit-filter 1s ease
-      background-position center
-      background-repeat no-repeat
-      background-size cover
-      overflow hidden
-      position relative
-      &:before
-        background-color main
-        webkit-transition opacity 0.5s ease
-        -ms-transition opacity 0.5s ease
-        transition opacity 0.5s ease
-        bottom 0
-        content ''
-        height 100%
-        left 0
-        opacity 0.85
-        position absolute
-        width 100%
-        z-index 2
-      a
-        color white
-        z-index 5
-        width 100%
-        h2
-          font-family cursive !important
-          padding 40px 10px
-          text-align center
+    border-radius 10px
+    height rem(250px) 
+    box-shadow 1px 3px 5px #BDBDBD
+    &.size-2
+        width  rem(400px)
+        height rem(180px) 
+        .box-title
+            height 100px
+    &.top-70
+        margin-top auto
+        +desktop()
+            margin-top rem(-70px)
+    +below(cut)
+        width: 100%;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
     &:hover
-      box-shadow 1px 2px 10px rgba(174, 129, 255, 0.58)
-    a
-      text-decoration none
-    .box-body
-        padding rem(25px)
-        h2
-            margin rem(5px) 0 rem(15px)
-            font-size rem(20px)
-            mainFont(800)
-            color main
-            span
-                color
+        box-shadow 1px 2px 10px #8a7d7d
+    .box-header
+        height 30px
+        a
+            font-family Montserrat
+            font-size 14px
+            color #FFFFFF
+            mix-blend-mode normal
+            text-transform uppercase
+            margin-left 15px
+            margin-top 10px
+            position absolute
+            text-decoration none
+    .box-title
+        height 170px
         p
-            margin 0 0 rem(20px)
-            color #576366
-            font-size rem(14px)
-            line-height rem(22px)
-        .tags a
-            color main
-            padding rem(5px) rem(10px)
+            margin-top 10px
+            margin-left 15px
+            font-family Montserrat
+            font-style normal
+            font-weight bold
+            font-size 20px
+            color #FFFFFF;
+            text-shadow 0px 4px 4px rgba(0, 0, 0, 0.25)
+    .box-footer
+        .post-link
+            padding 7px
+            background #ffffff
+            color #333333
             border-radius 3px
-            display inline-block
-            margin 0 0 rem(5px)
-            z-index 50
+            text-decoration none
+            box-shadow 0px 4px 4px rgba(0, 0, 0, 0.25)
+            margin-left 15px
+            font-family Montserrat
+            font-style normal
+            font-weight 600
+            line-height normal
+            font-size 14px
 
-#banner
-  background-image url('/assets/img/bg-pattern.png')
-  background-color #bb2f53
-  color white
-  position relative
-  height rem(450px)
-  overflow-y hidden
-  .wrapper
-    height 100%
-    padding 0
-    max-width 740px
-    margin-right auto
-    margin-left auto
+      

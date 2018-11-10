@@ -5,7 +5,9 @@ date: "2017-02-23 21:30"
 description: "Aprenda a escrever uma diretiva para a criação dinâmica de um modal
 e remova a redundância de cógido usando Angular.js e Bootstrap!"
 image: '/assets/img/posts/diretiva-modal-angular.png'
-main-class: javascript
+main-class: javascript 
+home-style: top-70
+box-style: "background: url('/assets/img/home/post-2017-02-23.png'); background-color: #000;"
 color:
 tags:
 - AngularJS

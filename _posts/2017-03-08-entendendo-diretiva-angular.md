@@ -5,7 +5,9 @@ date: "2017-03-08 21:30"
 description: "Entenda as configurações o scope dentro das diretivas do
 AngularJS"
 image: "/assets/img/posts/2017-03-08-entendendo-diretiva-angular.png"
-main-class: "javascript"
+main-class: javascript
+box-style: "background: url('/assets/img/home/post-2017-03-08.png'); background-color: #FBF9F8; background-repeat: no-repeat; background-size: contain;"
+color: "#333"
 tags:
 - AngularJS
 - JavaScript

@@ -4,8 +4,9 @@ title: 'Gulp para Iniciantes'
 date: 2017-01-16 20:30:00
 image: '/assets/img/posts/gulp.jpg'
 description: 'Aprenda a automatizar suas tarefas com Gulp.'
-main-class: 'dev'
-color: '#7AAB13'
+main-class: dev
+home-style: size-2
+box-style: "background: url('/assets/img/home/post-2017-01-16-2.png'); background-color: red;"
 tags:
 - CSS
 - JS
