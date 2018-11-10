@@ -1,5 +1,5 @@
 {
-  "name": "monicamota.github.io",
+  "name": "mocariz.github.io",
   "version": "1.0.0",
   "description": "Um blog sobre tecnologias e conhecimentos adquiridos, com foco em frontend",
   "main": "gulpfile.js",
@@ -17,6 +17,9 @@
     "js"
   ],
   "author": "Willian Justen de Vasconcellos",
+  "contributors": [
+    "Monica Mota Ocariz"
+  ],
   "license": "ISC",
   "devDependencies": {
     "autoprefixer-stylus": "^0.4.0",

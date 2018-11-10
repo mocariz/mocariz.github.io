@@ -225,7 +225,7 @@ h1,h2,h3,h4 {
 }
 
 .icons-home a:hover .icon {
-    fill: #bb2f53
+    fill: #581f6e
 }
 
 .down {
@@ -282,9 +282,9 @@ header .control-nav:before {
 
 @media only screen and (max-width: 37.5rem) {
     header .control-nav {
-        position:absolute;
+        position:fixed;
         right: 20px;
-        top: 20px;
+        top: 15px;
         display: block;
         width: 30px;
         padding: 5px 0;
@@ -341,8 +341,8 @@ header img {
 
 @media only screen and (max-width: 37.5rem) {
     header img {
-        position:absolute;
-        top: 20px;
+        position:fixed;
+        top: 10px;
         display: block;
         width: 32%;
         z-index: 11;
@@ -395,7 +395,7 @@ header nav .header-inner .menu li {
     display: inline-block;
     list-style: none;
     font-size: .875rem;
-    margin-right: .75rem;
+    margin-right: 2.5rem;
     vertical-align: middle;
     font-family: cursive;
     font-weight: bold;
@@ -408,7 +408,7 @@ header nav .header-inner .menu li a {
 }
 
 header nav .header-inner .menu li ahover {
-    color: #bb2f53
+    color: #581f6e
 }
 
 @media only screen and (max-width: 37.5rem) {
@@ -446,12 +446,12 @@ header nav .header-inner a .icon-search {
 }
 
 header nav .header-inner a .icon-searchhover {
-    fill: #bb2f53
+    fill: #581f6e
 }
 
 header nav .container {
     width: auto;
-    max-width: 55rem;
+    max-width: 50rem;
     padding-right: .938rem;
     padding-left: .938rem;
     margin-right: auto;
@@ -631,7 +631,7 @@ body.search-overlay:after {
 
 @media only screen and (max-width: 37.5rem) {
     body.search-overlay:after {
-        background-color:#bb2f53
+        background-color:#581f6e
     }
 }
 
@@ -710,9 +710,9 @@ body.search-overlay:after {
 
 .post-content .tags a {
     font-size: .875rem;
-    color: #bb2f53;
+    color: #581f6e;
     display: inline-block;
-    border: 1px solid #bb2f53;
+    border: 1px solid #581f6e;
     border-radius: .313rem;
     padding: .25rem .625rem;
     margin-right: .125rem;
@@ -721,8 +721,8 @@ body.search-overlay:after {
 }
 
 .post-content .tags a:hover {
-    color: #701c32;
-    border: 1px solid #701c32;
+    color: #351342;
+    border: 1px solid #351342;
     background: #fff
 }
 
@@ -735,7 +735,7 @@ html,body {
 }
 
 .header-post {
-    background-color: #bb2f53;
+    background-color: #581f6e;
 }
 
 .header-post .content {
@@ -760,7 +760,7 @@ html,body {
 
 .bar-header .logo a {
     font-family: cursive !important;
-    color: #bb2f53;
+    color: #581f6e;
     text-decoration: none;
     font-size: 2.5rem;
 }
@@ -823,7 +823,7 @@ html,body {
 .header-post h1 {
     font-size: 1.875rem;
     margin: 0 0 30px;
-    text-shadow: 3px 3px #962642;
+    text-shadow: 3px 3px #461958;
 }
 
 @media only screen and (min-width: 37.5rem) {
@@ -854,7 +854,7 @@ html,body {
 }
 
 main {
-    padding-top: 8.75rem;
+    padding-top: 7.5rem;
     padding-bottom: 3.125rem;
 }
 
@@ -910,11 +910,52 @@ main {
 }
 
 .box-item.top-70 {
-    margin-top: -4.375rem
+    margin-top: auto;
+}
+
+@media only screen and (min-width: 1050px) {
+    .box-item.top-70 {
+        margin-top:-4.375rem
+    }
+}
+
+@media only screen and (max-width: 37.5rem) {
+    .box-item {
+        width:100%;
+        background-repeat: no-repeat !important;
+        background-position: center !important
+    }
+}
+
+.box-item .box-header {
+    height: 30px;
+}
+
+.box-item .box-header a {
+    font-family: Montserrat;
+    font-size: 14px;
+    color: #fff;
+    mix-blend-mode: normal;
+    text-transform: uppercase;
+    margin-left: 15px;
+    margin-top: 10px;
+    position: absolute;
+    text-decoration: none
 }
 
 .box-item .box-title {
-    height: 170px
+    height: 170px;
+}
+
+.box-item .box-title p {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0 4px 4px rgba(0,0,0,0.25)
 }
 
 .box-item .box-footer .post-link {
@@ -1000,13 +1041,13 @@ main {
 }
 
 .post-content p code,.post-content li code {
-    color: #bb2f53;
+    color: #581f6e;
     word-wrap: break-word
 }
 
 .post-content a {
-    color: #bb2f53;
-    border-bottom: 2px dashed #bb2f53;
+    color: #581f6e;
+    border-bottom: 2px dashed #581f6e;
     font-family: 'Open Sans',sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -1015,14 +1056,14 @@ main {
 }
 
 .post-content a:hover {
-    background: #bb2f53;
+    background: #581f6e;
     color: #fff
 }
 
 .post-content .externalLink:after {
     display: inline-block;
     content: '';
-    color: #bb2f53;
+    color: #581f6e;
     background-image: url("../img/external.svg");
     background-size: 100%;
     margin-left: .313rem;
@@ -1105,7 +1146,7 @@ main {
     margin-left: auto;
     padding-left: 0;
     padding-right: 0;
-    border-left: .313rem solid #bb2f53;
+    border-left: .313rem solid #581f6e;
     padding: 0 1.875rem;
     margin: 3.125rem auto;
 }
@@ -1238,8 +1279,8 @@ main {
 }
 
 .post-list a:hover {
-    color: #5e1729;
-    border-bottom: 1px solid #5e1729;
+    color: #2c1037;
+    border-bottom: 1px solid #2c1037;
     background: #fff
 }
 
@@ -1468,7 +1509,7 @@ pre span {
 }
 
 .author .name a:hover {
-    color: #bb2f53
+    color: #581f6e
 }
 
 @media only screen and (min-width: 37.5rem) {
@@ -1493,7 +1534,7 @@ pre span {
 
 .author .email,.author .github {
     text-decoration: none;
-    color: #bb2f53
+    color: #581f6e
 }
 
 .comments {
@@ -1523,7 +1564,7 @@ pre span {
 }
 
 footer {
-    background: #bb2f53;
+    background: #581f6e;
     padding: 1.563rem 0;
 }
 
