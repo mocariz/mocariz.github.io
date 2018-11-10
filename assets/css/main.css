@@ -927,6 +927,10 @@ main {
     }
 }
 
+.box-item:hover {
+    box-shadow: 1px 2px 10px #8a7d7d
+}
+
 .box-item .box-header {
     height: 30px;
 }
@@ -1578,19 +1582,6 @@ footer p,footer a {
     margin: 0
 }
 
-.box-item.post-life:hover {
-    box-shadow: 1px 2px 10px #2dbf80
-}
-
-.box-item.post-life .box-data span a {
-    color: #2dbf80;
-    border-color: #2dbf80
-}
-
-.box-item.post-life .box-title:before {
-    background-color: #2dbf80
-}
-
 .post-life .bar-header {
     background-color: #2dbf80;
     background-image: url("/assets/img/bg-pattern.png");
@@ -1705,19 +1696,6 @@ footer p,footer a {
 
 .post-life footer {
     background: #2dbf80
-}
-
-.box-item.post-css:hover {
-    box-shadow: 1px 2px 10px #0171bb
-}
-
-.box-item.post-css .box-data span a {
-    color: #0171bb;
-    border-color: #0171bb
-}
-
-.box-item.post-css .box-title:before {
-    background-color: #0171bb
 }
 
 .post-css .bar-header {
@@ -1836,19 +1814,6 @@ footer p,footer a {
     background: #0171bb
 }
 
-.box-item.post-javascript:hover {
-    box-shadow: 1px 2px 10px #e5a228
-}
-
-.box-item.post-javascript .box-data span a {
-    color: #e5a228;
-    border-color: #e5a228
-}
-
-.box-item.post-javascript .box-title:before {
-    background-color: #e5a228
-}
-
 .post-javascript .bar-header {
     background-color: #e5a228;
     background-image: url("/assets/img/bg-pattern.png");
@@ -1963,19 +1928,6 @@ footer p,footer a {
 
 .post-javascript footer {
     background: #e5a228
-}
-
-.box-item.post-html:hover {
-    box-shadow: 1px 2px 10px #e44d26
-}
-
-.box-item.post-html .box-data span a {
-    color: #e44d26;
-    border-color: #e44d26
-}
-
-.box-item.post-html .box-title:before {
-    background-color: #e44d26
 }
 
 .post-html .bar-header {
@@ -2094,19 +2046,6 @@ footer p,footer a {
     background: #e44d26
 }
 
-.box-item.post-dev:hover {
-    box-shadow: 1px 2px 10px #30aee0
-}
-
-.box-item.post-dev .box-data span a {
-    color: #30aee0;
-    border-color: #30aee0
-}
-
-.box-item.post-dev .box-title:before {
-    background-color: #30aee0
-}
-
 .post-dev .bar-header {
     background-color: #30aee0;
     background-image: url("/assets/img/bg-pattern.png");
@@ -2221,19 +2160,6 @@ footer p,footer a {
 
 .post-dev footer {
     background: #30aee0
-}
-
-.box-item.post-layout:hover {
-    box-shadow: 1px 2px 10px #7aab13
-}
-
-.box-item.post-layout .box-data span a {
-    color: #7aab13;
-    border-color: #7aab13
-}
-
-.box-item.post-layout .box-title:before {
-    background-color: #7aab13
 }
 
 .post-layout .bar-header {
