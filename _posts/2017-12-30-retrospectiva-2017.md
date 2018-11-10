@@ -5,6 +5,8 @@ date: "2017-12-30 15:00"
 description: "Nunca sei ao certo o que vou ser de um minuto para o outro"
 image: "/assets/img/posts/2017-04-23-porque-usar-django.png"
 main-class: "life"
+box-style: "background: url('/assets/img/home/post-2017-12-30.png'); background-color: #fff; background-repeat: no-repeat; background-size: contain; background-position: center;"
+color: "#333"
 tags:
 - retrospectiva
 twitter_text: "Retrospectiva 2017"
