@@ -4,7 +4,8 @@ title: "Guia para Iniciantes em SVN - Subversion"
 date: "2017-03-05 19:00"
 description: "Guia prático para controle de versão utilizando o SVN- Subversion"
 image: "/assets/img/posts/svn.png"
-main-class: "dev"
+main-class: dev
+box-style: "background: url('/assets/img/home/post-2017-03-05.png'), url('/assets/img/home/post-2017-03-05.png'), linear-gradient(0deg, #092E20, #E6C1FD); background-repeat: no-repeat; background-size: contain;"
 tags:
 - Tutorial
 - Versionamento

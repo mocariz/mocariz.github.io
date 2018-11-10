@@ -3,8 +3,9 @@ layout: "post"
 title: "Porque usar Django?"
 date: "2017-04-23 20:00"
 description: "Com Django criar um site ficou bem mais fácil, ele promove o ambiente e estrutura necessária e tudo isso de graça!"
-image: "/assets/img/posts/2017-04-23-porque-usar-django.png"
-main-class: "dev"
+main-class: dev
+home-style: size-2
+box-style: "background: url('/assets/img/home/post-2017-04-23.png'), url('/assets/img/home/post-2017-04-23.png'), linear-gradient(0deg, #092E20, #092E20); background-repeat: no-repeat; background-size: contain; background-position: center;"
 tags:
 - Django
 - Back-end
