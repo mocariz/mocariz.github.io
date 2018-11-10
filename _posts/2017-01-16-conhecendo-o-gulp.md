@@ -6,7 +6,7 @@ image: '/assets/img/posts/gulp.jpg'
 description: 'Aprenda a automatizar suas tarefas com Gulp.'
 main-class: dev
 home-style: size-2
-box-style: "background: url('/assets/img/home/post-2017-01-16-2.png')"
+box-style: "background: url('/assets/img/home/post-2017-01-16-2.png'); background-color: red;"
 tags:
 - CSS
 - JS

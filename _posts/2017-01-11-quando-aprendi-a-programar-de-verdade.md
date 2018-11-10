@@ -6,7 +6,7 @@ image: '/assets/img/posts/2017-01-11-programing.png'
 description: 'No inicio não sabemos direito as coisas, e recorremos ao famoso Ctrl-C + Ctrl-V'
 main-class: life
 home-style: size-2
-box-style: "background: url('/assets/img/home/post-2017-01-11.png')"
+box-style: "background: url('/assets/img/home/post-2017-01-11.png'); background-color: red;"
 tags:
 - carreira
 categories:

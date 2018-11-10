@@ -1,8 +1,8 @@
 main
-    padding-top rem(140px)
+    padding-top rem(120px)
     padding-bottom rem(50px)
     +below(cut)
-      padding rem(100px) 0 0 0
+        padding rem(100px) 0 0 0
 
 .row
     center(rem(1300px))
@@ -19,12 +19,18 @@ main
     height rem(250px) 
     box-shadow 1px 3px 5px #BDBDBD
     &.size-2
-      width  rem(400px)
-      height rem(180px) 
-      .box-title
-        height 100px
+        width  rem(400px)
+        height rem(180px) 
+        .box-title
+            height 100px
     &.top-70
-      margin-top rem(-70px)
+        margin-top auto
+        +desktop()
+            margin-top rem(-70px)
+    +below(cut)
+        width: 100%;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
     .box-header
         height 30px
         a

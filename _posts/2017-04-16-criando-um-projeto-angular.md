@@ -5,7 +5,7 @@ date: "2017-04-16 11:00"
 description: "Pensou em começar um projeto AngularJS e não sabe por onde começar? Seus problemas acabaram aqui!"
 image: "/assets/img/posts/2017-04-16-criando-um-projeto-angular.png"
 main-class: javascript
-box-style: "background: url('/assets/img/home/post-2017-04-16.png'), url('/assets/img/home/post-2017-04-16.png'), linear-gradient(0deg, #092E20, #DCEEF4); background-repeat: no-repeat; background-size: contain;"
+box-style: "background: url('/assets/img/home/post-2017-04-16.png'); background-color: #DCEEF4; background-repeat: no-repeat; background-size: contain;"
 color: "#333"
 tags:
 - AngularJS

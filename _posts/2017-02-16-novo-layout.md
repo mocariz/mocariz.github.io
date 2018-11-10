@@ -6,7 +6,7 @@ image: '/assets/img/posts/novo-blog-jekyll.png'
 description: "Blog feito em Jekyll e GitHub Pages"
 main-class: layout
 home-style: top-70
-box-style: "background: url('/assets/img/home/post-2017-02-16.png'), url('/assets/img/home/post-2017-02-16.png'), linear-gradient(0deg, #092E20, #E6C1FD); background-repeat: no-repeat; background-size: contain;"
+box-style: "background: url('/assets/img/home/post-2017-02-16.png'); background-color: #4c4a4b; background-repeat: no-repeat; background-size: contain;"
 tags:
 - layout
 - Jekyll

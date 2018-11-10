@@ -7,7 +7,7 @@ e remova a redundância de cógido usando Angular.js e Bootstrap!"
 image: '/assets/img/posts/diretiva-modal-angular.png'
 main-class: javascript 
 home-style: top-70
-box-style: "background: url('/assets/img/home/post-2017-02-23.png')"
+box-style: "background: url('/assets/img/home/post-2017-02-23.png'); background-color: #000;"
 color:
 tags:
 - AngularJS
