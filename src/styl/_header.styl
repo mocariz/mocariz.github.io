@@ -1,7 +1,7 @@
 html,
 body
 	height 100%
-
+	scroll-behavior smooth
 $bg
 	background-color main
 	.content
@@ -38,14 +38,19 @@ $bg
 		margin-top rem(-13px)
 		margin-left rem(10px)
 
+
+
+
 // Header Post
 .header-post
 	@extends $bg
-	min-height rem(500px)
-	width 100%
 	background-image url('/assets/img/bg-pattern.png')
+	min-height rem(500px)
+	position fixed
+	width 100%
 	.content
 		margin auto
+		max-width rem(800px)
 	.subheader
 		display table
 		padding 20px
@@ -61,7 +66,7 @@ $bg
 		font-size rem(16px)
 	h1
 		font-size rem(30px)
-		margin 0 0 30px
+		margin 0 0 30px    
 		text-shadow 3px 3px darken(main, 20%)
 		+above(cut)
 			font-size rem(60px)

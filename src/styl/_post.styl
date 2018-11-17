@@ -7,10 +7,11 @@ $padding-title-header
         visibility hidden
 .post
     position relative
+    top rem(500px)
     background #fff
-.post-content
+.post-content,
+.frame-content
     padding rem(40px) 0
-    text-align justify
     img
         max-width 100%
         margin rem(30px) auto
@@ -20,15 +21,15 @@ $padding-title-header
         padding 0 rem(20px)
         margin 0 auto rem(30px)
         mainFont(300)
-        font-size rem(18px)
+        font-size rem(20px)
         line-height 2
-        letter-spacing 0.01rem
+        letter-spacing rem(1.1px)
         +above(cut)
             font-size rem(20px)
     li
         padding rem(10px) 0
-        ul
-        margin-bottom 0
+        & > ul
+            margin-bottom 0
     p,li
         color texts
         code
@@ -47,7 +48,7 @@ $padding-title-header
         display inline-block
         content ''
         color main
-        background-image url('../img/external.svg')
+        background-image url('/assets/img/external.svg')
         background-size 100%
         margin-left rem(5px)
         width rem(18px)
@@ -57,7 +58,8 @@ $padding-title-header
         width 100%
     #twitter-widget-0,
     .instagram-media
-    	margin auto !important
+    .twitter-tweet
+    	margin 20px auto !important
     h1,h2,h3,h4,h5
         mainFont(800)
         @extend $padding-title-header
