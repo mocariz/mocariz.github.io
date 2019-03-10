@@ -2,15 +2,15 @@
 title:  Mônica Mota Ocariz
 description: Blog sobre conhecimentos e aventuras do dia-a-dia
 baseurl: ""
-url: "https://mocariz.com.br"
+url: "https://mocariz.dev"
 
 # User settings
 username: Mônica Mota Ocariz
 user_description: Programadora Front-End
 email: mota.ocariz@gmail.com
-twitter_username: Monica_Ocariz
+twitter_username: mocariz_
 github_username:  mocariz
-gplus_username: Monicamotaocariz #google+
+instagran_username: mocariz
 
 
 # Build settings
@@ -27,4 +27,10 @@ compress_html:
   profile: false
 
 # exclude my node related stuff
-exclude: ['package.json', 'src', 'node_modules']
+exclude: [
+  'package.json',
+  'package-lock.json',
+  'src',
+  'node_modules',
+  'README.md',
+  'gulpfile.js',]

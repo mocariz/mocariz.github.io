@@ -37,7 +37,7 @@ Embora eu não tenha atuado muito nele este ano, não foi uma perda de tempo, e 
 
 ## Consegui um emprego como Desenvolvedora Front-end
 
-Yeah! Eu estava super preocupada de não conseguir um trabalho, agora que estava formada. Mas essa preocupação foi logo resolvida em fevereiro, quando comecei a trabalhar na empresa [Infracommerce](http://www.infracommerce.com.br/) como desenvolvedora front-end. Devo confessar que foi uma conquista, porque além de conseguir um emprego aqui mesmo na minha cidade, foi na área que mais amo! Eu já falei [aqui](http://mocariz.com.br/iniciando-o-blog/) como comecei a estudar programação, e devo confessar, front me faz sentir bem, me faz sentir realizada e orgulhosa com meu trabalho.
+Yeah! Eu estava super preocupada de não conseguir um trabalho, agora que estava formada. Mas essa preocupação foi logo resolvida em fevereiro, quando comecei a trabalhar na empresa [Infracommerce](http://www.infracommerce.com.br/) como desenvolvedora front-end. Devo confessar que foi uma conquista, porque além de conseguir um emprego aqui mesmo na minha cidade, foi na área que mais amo! Eu já falei [aqui](http://mocariz.dev/iniciando-o-blog/) como comecei a estudar programação, e devo confessar, front me faz sentir bem, me faz sentir realizada e orgulhosa com meu trabalho.
 
 
 ## 	Participei do Django Girls
