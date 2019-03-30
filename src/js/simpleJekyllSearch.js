@@ -2,12 +2,12 @@
     $.fn.simpleJekyllSearch = function(options) {
         var settings = $.extend({
             jsonFile        : '/search.json',
-            jsonFormat      : 'title,tags,url,date',
-            template : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{date}</time></span></a></article></li>',
+            jsonFormat      : 'title,tags,categories,url,date',
+            template        : '<li><article><a href="{url}">{title} <span class="entry-date"><time datetime="{date}">{date}</time></span></a></article></li>',
             searchResults   : '.search-results',
-            searchResultsTitle   : '<h4>Resultados da Pesquisa:</h4>',
+            searchResultsTitle   : '<h4>Resultados da busca:</h4>',
             limit           : '10',
-            noResults       : '<p>Não encontramos nada =[</p>'
+            noResults       : '<p>Oh droga!<br/><small>Não encontramos nada :(</small></p>'
         }, options);
 
         var properties = settings.jsonFormat.split(',');
@@ -30,7 +30,6 @@
                     console.log(x);
                     console.log(y);
                     console.log(z);
-                    // x.responseText should have what's wrong
                 }
             });
         }
