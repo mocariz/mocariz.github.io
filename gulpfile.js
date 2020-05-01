@@ -10,7 +10,7 @@ var jeet        = require('jeet');
 var koutoSwiss  = require('kouto-swiss');
 var rupture     = require('rupture');
 var imagemin    = require('gulp-imagemin');
-var cp 			= require('child_process');
+var cp 			    = require('child_process');
 
 var jekyll 		= process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 
@@ -70,10 +70,10 @@ function js() {
 /**
  * Imagemin Task
  */
-function imagemin() {
+function optimizeImg() {
 	return gulp.src(paths.images.src)
 		.pipe(plumber())
-		.pipe(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true }))
+		.pipe(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true }))
 		.pipe(gulp.dest(paths.images.dest))
 		.pipe(gulp.dest(paths.images.destsecond))
 		.pipe(browserSync.reload({stream:true}));
@@ -105,7 +105,7 @@ function browserSyncReload(done) {
  */
 function watch() {
   gulp.watch(paths.styles.src, style)
-  gulp.watch(paths.images.src, imagemin);
+  gulp.watch(paths.images.src, optimizeImg);
   gulp.watch(paths.scripts.src, js)
   gulp.watch(
     [
@@ -123,4 +123,4 @@ function watch() {
  * Default task, running just `gulp` will compile the stylus,
  * compile the jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', gulp.parallel(jekyllBuild, browserSyncServe, watch))
+gulp.task('default', gulp.parallel(js, style, optimizeImg, jekyllBuild, browserSyncServe, watch))
