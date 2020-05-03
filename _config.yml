@@ -1,12 +1,13 @@
 # Site settings
-title:  Mônica Mota Ocariz
+title:  Mocariz - Monica Mota
 description: Blog sobre conhecimentos e aventuras do dia-a-dia
 baseurl: ""
 url: "https://mocariz.dev"
 
 # User settings
 username: Mônica Mota Ocariz
-user_description: Programadora Front-End
+user_occupation: Desenvolvedora Front End
+user_description:  Uma garota que gosta de viver histórias. Compartilho sobre aprendizados no universo front-end, livros, musicas, séries, experiencias e um pouco de chocolate.
 email: mota.ocariz@gmail.com
 twitter_username: mocariz_
 github_username:  mocariz
@@ -33,4 +34,5 @@ exclude: [
   'src',
   'node_modules',
   'README.md',
-  'gulpfile.js',]
+  'gulpfile.js'
+]
