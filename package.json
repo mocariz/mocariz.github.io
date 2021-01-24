@@ -18,8 +18,7 @@
   },
   "lint-staged": {
     "src/**/*": [
-      "yarn lint --fix",
-      "yarn test --findRelatedTests --bail"
+      "yarn lint --fix"
     ]
   },
   "dependencies": {
@@ -27,7 +26,8 @@
     "next-pwa": "^5.0.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "styled-components": "5.2.1"
+    "styled-components": "5.2.1",
+    "styled-icons": "^10.26.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
