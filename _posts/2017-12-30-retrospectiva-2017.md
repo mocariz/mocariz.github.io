@@ -16,7 +16,7 @@ introduction: "Nunca sei ao certo o que vou ser de um minuto para o outro"
 
 Bem vindo =]
 
-2017 acaba hoje, e inspirada no que muitas pessoas fazem todos os anos, resolvi fazer uma retrospectiva deste ano, que devo dizer, não foi perfeito, mas foi o ano! Pra falar a verdade 2017 está acabando e não consegui cumprir nem metade das metas que defini no inicio do ano. No entando, para alguém que queria virar o mundo de ponta cabeça de uma vez só, eu devo dizer que pelo menos 90° eu atingi.
+2017 acaba hoje, e inspirada no que muitas pessoas fazem todos os anos, resolvi fazer uma retrospectiva deste ano, que devo dizer, não foi perfeito, mas foi o ano! Pra falar a verdade 2017 está acabando e não consegui cumprir nem metade das metas que defini no inicio do ano. No entanto, para alguém que queria virar o mundo de ponta cabeça de uma vez só, eu devo dizer que pelo menos 90° eu atingi.
 
 Eu não sei vocês, mas eu tenho um diário chamado "Uma pergunta por dia - Diário para 5 anos" e a pergunta do dia 1 de Janeiro é: `Qual a sua missão?` Bem minha resposta para 2017 foi:
 
@@ -28,7 +28,7 @@ Mas o que eu fiz em 2017 que fez dele uma no incrível?
 
 ## Criei o meu blog
 
-Sim, a idéia nasceu em dezembro de 2016 e se tornou realidade em janeiro.
+Sim, a ideia nasceu em dezembro de 2016 e se tornou realidade em janeiro.
 No começo era um blog feito no blogger do google, mas em fevereiro mudei para o github pages depois de conhecer o curso do Willian Justem sobre Jeklly.
 
 Embora eu não tenha atuado muito nele este ano, não foi uma perda de tempo, e nem será uma iniciativa morta. O blog abriu muitas portas para mim em 2017, me deu a coragem de enfrentar todas as coisas que me apareceram durante o ano, e neste proximo ano tenho certeza que ele vai continuar transformando minha vida.
@@ -42,14 +42,14 @@ Yeah! Eu estava super preocupada de não conseguir um trabalho, agora que estava
 
 ## 	Participei do Django Girls
 
-Em maio aconteceu o Django Girls SJC e tive a honra de contribuir com este evento como treinadora de 3 encantadoras garotas! Foi um grande passo para mim, nunca tinha participado de algo assim, e foi um desafio no meu caminho, tomar a iniciativa e levar até o final não foi fácil, mas me sinto feliz de ter conseguido. Siceramente? Adorei, não vejo a hora de ter novamente aqui na cidade e com absoluta certeza vou me inscrever novamente para ajudar (e vou pedir camiseta PP pq a M parece um G rs). 
+Em maio aconteceu o Django Girls SJC e tive a honra de contribuir com este evento como treinadora de 3 encantadoras garotas! Foi um grande passo para mim, nunca tinha participado de algo assim, e foi um desafio no meu caminho, tomar a iniciativa e levar até o final não foi fácil, mas me sinto feliz de ter conseguido. Sinceramente? Adorei, não vejo a hora de ter novamente aqui na cidade e com absoluta certeza vou me inscrever novamente para ajudar (e vou pedir camiseta PP pq a M parece um G rs). 
 Neste proximo ano desejo participar da edição em SP, eu tentei esse ano mas além do medo de ir pra SP sozinha, eu peguei pneumonia que acabou contribuindo pra eu desistir. Mas vou ultrapassar esse medo e ano que vem estarei lá!
 
 ![Django Girls em São José dos Campos](/assets/img/posts/2017-12-31/django-girls.jpg)
 
 ## Front in Vale e Code in the Dark
 
-Além disso esse ano também participei do evento de front in Vale (como participante normal) e embora pareça pouco, ir para um evento assim, sozinha, é alguma coisa, principalmente para nós mulheres, e para mim foi mais um passo que dei este ano. Mas o maior desafio não foi este! Após o evento ia acontecer mais um, o `Code in the Dark`, este sim foi um desafio superado, e daqueles que voçê se arrependeria se tivesse desistido. Foi muito legal, e agradeço ao Bernard que sem saber me incentivou e me levou a me inscrever. Embora eu não tenha sido sorteada para competir na hora, tenho certeza que na proxima edição eu vou me inscrever de novo e não vou ter tanto medo quando falarem o meu nome.
+Além disso esse ano também participei do evento de front in Vale (como participante normal) e embora pareça pouco, ir para um evento assim, sozinha, é alguma coisa, principalmente para nós mulheres, e para mim foi mais um passo que dei este ano. Mas o maior desafio não foi este! Após o evento ia acontecer mais um, o `Code in the Dark`, este sim foi um desafio superado, e daqueles que você se arrependeria se tivesse desistido. Foi muito legal, e agradeço ao Bernard que sem saber me incentivou e me levou a me inscrever. Embora eu não tenha sido sorteada para competir na hora, tenho certeza que na proxima edição eu vou me inscrever de novo e não vou ter tanto medo quando falarem o meu nome.
 
 Fora que devo confessar que ir nesses eventos é otimo para fazer novos amigos!
 
@@ -94,7 +94,7 @@ Em novembro fui com alguns amigos a praia, em Caraguatatuba.
 
 ## Li muito!
 
-Esse ano o que não li o ano passado, tirei do atraso. Forão mais de 50 livros, mas os mais carcantes forão:
+Esse ano o que não li o ano passado, tirei do atraso. Foram mais de 50 livros, mas os mais marcantes foram:
 
 - Trono de vidro
 - Rainha Vermelha

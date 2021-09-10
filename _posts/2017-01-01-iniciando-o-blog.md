@@ -78,7 +78,7 @@ Mas na faculdade não foi facil, pra falar a verdade, lá eu aprendi 2/4 do bás
  muita coisa. Nele aprendi sobre `Django`, que amo, além de outras tecnologias
  como `JavaScript`, `AngularJS`, `Bootstrap`,  `OpenLayers`, `GIT`,
 foi onde aprendi realmente  `CSS3` e `HTML5`. Além de muitas outras coisas que
-usamos nessa aréa de desenvolvimento front-end.
+usamos nessa area de desenvolvimento front-end.
 
 No último semestre da faculdade eu parei de trabalhar e aproveitei para focar no
 meu TG (ou TCC). Depois que acabou percebi que eu tinha muito tempo livre e nada para

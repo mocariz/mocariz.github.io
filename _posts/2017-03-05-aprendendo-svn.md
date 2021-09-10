@@ -32,8 +32,8 @@ forma de guia, então vamos lá?
 
 Antes de tudo o que é importante saber o que é o SVN. O Apache Subversion, popularmente
 conhecido como SVN é uma ferramenta para controle de versão. Mas o que é em si o
-controle de versão? Controle de Versão é gerenciar as mundanças das informações
-dos seus arquivos, mantendo um histórico sobre elas. Se você já conhece o GIT, a idéia
+controle de versão? Controle de Versão é gerenciar as mudanças das informações
+dos seus arquivos, mantendo um histórico sobre elas. Se você já conhece o GIT, a ideia
 é semelhante.
 
 Quando trabalhamos com versionamento, existe alguns conceitos básicos que é importante saber,

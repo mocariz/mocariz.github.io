@@ -22,7 +22,7 @@ frontend de uma forma bem fácil.'
 
 ## Introdução
 
-Hi everone =]
+Hi everyone =]
 
 Espero que estejam bem, eu estou muito feliz que estou sendo capaz de cumprir com
 meu objetivo de escrever toda semana. E está semana venho trazer pra vocês uma

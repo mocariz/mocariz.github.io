@@ -43,7 +43,7 @@ e configurações da aplicação. Quando criamos uma directive, controller ou se
 acaba que sempre acabamos herdando as configurações do $rootScope.
 
 Sempre que queremos herdar um objeto no angular colocamos este dentro do scope. Escopos podem
-ser herdados, variávies declaradas não. O scope pode ser passado entre directives, controllers e services.
+ser herdados, variáveis declaradas não. O scope pode ser passado entre directives, controllers e services.
 
 ![Piramide de herança no angular](/assets/img/posts/angular-heranca.png)
 
@@ -87,7 +87,7 @@ app.directive("example", function() {
 
 ### scope isolate
 Nesta forma você cria um scope isolado que por padrão não herda do scope pai, mas
-você pode passar atravéz de variaveis informações e métodos do scope pai para a
+você pode passar através de variaveis informações e métodos do scope pai para a
 diretiva.
 Quando você faz isso o scope da diretiva faz uma ligação com o scope pai.
 {% highlight javascript %}

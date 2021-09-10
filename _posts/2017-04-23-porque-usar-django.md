@@ -10,7 +10,7 @@ tags:
 - Django
 - Back-end
 twitter_text: "Criar um site nunca foi tão fácil"
-introduction: "Pra que reiventar a roda quando já fizeram isso? Com Django criar sites nunca foi tão facil!"
+introduction: "Pra que reinventar a roda quando já fizeram isso? Com Django criar sites nunca foi tão facil!"
 ---
 
 ## Introdução
@@ -41,7 +41,7 @@ que é de fácil aprendizado.
 Além disso Django conta com a ajuda de diversas bibliotecas para auxiliar a alcançar o objetivo proposto.
 
 Se você ainda não entendeu o que é Django, explicarei de novo, imagina que você quer criar um site, precisa criar as tabelas, todo o sistema de login,
-as páginas e formulários, etc. Com Django tudo isso fica mais fácil, você não precisa entender de SQL, não precisa se preocuapar
+as páginas e formulários, etc. Com Django tudo isso fica mais fácil, você não precisa entender de SQL, não precisa se preocupar
 com sessões e cookies, pois ele já tem o ambiente preparado. E de maneira rápida, limpa e organizada, permite que você
 possa construir tudo o que precisa!
 
@@ -54,11 +54,11 @@ Isso mesmo, Django é open-source
 O principal framework web escrito em python e conta com grande suporte, além de ser bem fácil de aprender.
 
 ### Batteries Included
-Django vem com muitas coisas prontas, o que agiliza muito no desenvolvimento. Pra que reiventar a roda?
+Django vem com muitas coisas prontas, o que agiliza muito no desenvolvimento. Pra que reinventar a roda?
 
 ### Conta com uma comunidade ativa
-Django é muldialmente conhecido e utilizado, possui uma otima documentação e uma poderosa comunidade. Dificil você
-não econtrar o que precisa se procurar.
+Django é mundialmente conhecido e utilizado, possui uma otima documentação e uma poderosa comunidade. Dificil você
+não encontrar o que precisa se procurar.
 
 ### Bibliotecas prontas
 Como falei Django tem uma grande comunidade e por ser open-source conta com muitas bibliotecas prontas

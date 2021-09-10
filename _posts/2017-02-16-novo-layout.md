@@ -29,7 +29,7 @@ enquanto assisto Northanger Abbey, sinceramente maravilhoso, recomendo!
 Bem, no inicio do ano eu decidi criar um blog onde eu poderia estar divulgando
 minhas descobertas no mundo da tecnologia, e o fiz através do Blogger, mas no meio
 de janeiro descobri o blog do <a href="https://willianjusten.com.br/">Willian Justen</a>
- e gostei tanto que começei a xeretar e lá descobri muitas coisas legais :3
+ e gostei tanto que comecei a xeretar e lá descobri muitas coisas legais :3
 
 E essas descobertas tiveram um grande peso sobre as mudanças aqui no blog, o blog
 do Willian também é feito em <a href="https://jekyllrb.com/">Jekyll</a> e lá
@@ -38,7 +38,7 @@ Github Pages, por isso não falarei como fiz tudo isso e sim deixarei o <a href=
 
 ## Mas porque mudar?
 
-Bem, porque decidi mudar? Eu diria que por diversas razoẽs bem atrativas.
+Bem, porque decidi mudar? Eu diria que por diversas razões bem atrativas.
 - A primeira coisa que me chamou a atenção foi a liberdade que ele apresenta em relação ao layout. Não preciso me
 prender sempre ao mesmo, cada postagem posso fazer de uma maneira diferente se quiser.
 - O fato de ser feito em HTML, CSS, JavaScript entre outros fica mais fácil de mexer/editar
@@ -56,7 +56,7 @@ devo confessar que não em arrependi em nada!
 
 Bem como falei eu gostei bastante do layout criado pelo willian
 <a href="https://github.com/willianjusten/cards-jekyll-template">Cards Jekyll</a>
- e isso foi um dos pontos que me influênciou bastante, e é o mesmo usado aqui
+ e isso foi um dos pontos que me influenciou bastante, e é o mesmo usado aqui
  no blog, embora eu fiz alguns modificações que achei mais adequado para mim.
  Mas se você não gostar tem diversos layouts prontos na internet, basta digitar
  Jekyll Themes no google.

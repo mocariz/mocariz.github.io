@@ -3,7 +3,7 @@ layout: "post"
 title: "Como criar uma Diretiva em AngularJS para geração de um Modal"
 date: "2017-02-23 21:30"
 description: "Aprenda a escrever uma diretiva para a criação dinâmica de um modal
-e remova a redundância de cógido usando Angular.js e Bootstrap!"
+e remova a redundância de código usando Angular.js e Bootstrap!"
 image: '/assets/img/posts/diretiva-modal-angular.png'
 main-class: javascript 
 home-style: top-70
@@ -18,7 +18,7 @@ tags:
 - Tutorial
 twitter_text: "Crie em poucos minutos um modal usando bootstrap e angular.js"
 introduction: "Aprenda a escrever uma diretiva para a criação dinâmica de um modal
-e remova a redundância de cógido usando Angular.js e Bootstrap!"
+e remova a redundância de código usando Angular.js e Bootstrap!"
 ---
 
 ## Introdução
@@ -75,7 +75,7 @@ Como definimos replace como True na quarta linha, tudo que for colocado no dentr
 será adicionado a primeira linha do html do modal.
 
 Além disso na quinta linha definimos transclude como True, isso significa que todo o
-conteudo escrido dentro da tag `<dinamic-modal></dinamic-modal>` vai ser colocado
+conteudo escrito dentro da tag `<dinamic-modal></dinamic-modal>` vai ser colocado
 dentro da div que conter a tag do angular `ng-transclude`.
 
 No template definimos o template que contém o html da estrutura do modal. E no scope
@@ -131,7 +131,7 @@ Ao inserir o código acima no seu html o resultado final será:
         <div class="alert alert-info alert-dismissible">
           <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
           <h4><i class="icon fa fa-info"></i> Alert!</h4>
-          Info alert preview. This alert is dismissable.
+          Info alert preview. This alert is dismissible.
         </div>
       </div>
       <div class="modal-footer">
