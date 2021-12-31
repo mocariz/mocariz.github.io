@@ -1,0 +1,21 @@
+{
+  "name": "Mocariz Blog",
+  "short_name": "Mocariz Blog",
+  "icons": [
+    {
+      "src": "/img/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "background_color": "#44475A",
+  "description": "A simple project starter to share my experiences and knowledge acquired on a daily basis",
+  "display": "fullscreen",
+  "start_url": "/",
+  "theme_color": "#44475A"
+}

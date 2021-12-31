@@ -1,0 +1,56 @@
+{
+  "name": "mocariz-blog",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@github.com:mocariz/mocariz.github.io.git",
+  "author": "Monica Mota Ocariz <mota.ocariz@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "test:watch": "yarn test --watch"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*": [
+      "yarn lint --fix",
+      "yarn test --findRelatedTests --bail"
+    ]
+  },
+  "dependencies": {
+    "next": "12.0.4",
+    "next-seo": "^4.28.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "styled-components": "^5.3.3",
+    "styled-icons": "^10.45.0"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.16.0",
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^12.1.2",
+    "@types/jest": "^27.0.3",
+    "@types/react": "^17.0.35",
+    "@types/styled-components": "^5.1.15",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "babel-plugin-styled-components": "^1.13.3",
+    "eslint": "7",
+    "eslint-config-next": "12.0.4",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "husky": "^7.0.0",
+    "jest": "^27.3.1",
+    "jest-styled-components": "^7.0.6",
+    "lint-staged": "^12.0.3",
+    "prettier": "^2.4.1",
+    "typescript": "^4.5.2"
+  }
+}
