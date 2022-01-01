@@ -4,7 +4,7 @@ export const Wrapper = styled.main`
   color: #fff;
   width: 100%;
   height: 100%;
-  padding: 3rem;
+  padding-top: 3rem;
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -20,7 +20,7 @@ export const Description = styled.h2`
   font-weight: 500;
   font-size: 32px;
   line-height: 37px;
-  color: #BB6BD9;
+  color: #bb6bd9;
 
   b {
     font-weight: 700;
@@ -37,11 +37,11 @@ export const BlockLinks = styled.div`
 `
 
 export const Link = styled.a`
-  color: #11B488;
+  color: #11b488;
   cursor: pointer;
-
 `
 
-export const Illustration = styled.img`
-  margin-top: 3rem;
+export const ArrowheadDown = styled.div`
+  margin-top: 150px;
+  cursor: pointer;
 `
