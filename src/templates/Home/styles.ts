@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
   background-color: #44475a;
   color: #fff;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
 `
 export const Main = styled.main`
   width: 80%;

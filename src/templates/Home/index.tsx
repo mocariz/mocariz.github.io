@@ -1,6 +1,9 @@
 import { NextSeo } from 'next-seo'
+
 import Introduction from 'components/Introduction'
 import Header from 'components/Header'
+import About from 'components/About'
+
 import * as S from './styles'
 
 export default function HomeTemplate() {
@@ -16,6 +19,7 @@ export default function HomeTemplate() {
 
       <S.Main>
         <Introduction />
+        <About />
       </S.Main>
     </S.Wrapper>
   )
