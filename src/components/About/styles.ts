@@ -6,11 +6,18 @@ export const Wrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 100px 0;
+
+  @media only screen and (max-width: 37.5rem) {
+    flex-direction: column;
+  }
 `
 
 export const Div70 = styled.div`
   width: 60%;
   text-align: left;
+  @media only screen and (max-width: 37.5rem) {
+    width: 100%;
+  }
 `
 
 export const Div30 = styled.div`
@@ -48,4 +55,8 @@ export const ProfileImage = styled.div`
   top: 832px;
   border-radius: 100%;
   background: #c4c4c4;
+
+  @media only screen and (max-width: 37.5rem) {
+    display: none;
+  }
 `
