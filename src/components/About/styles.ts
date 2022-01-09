@@ -22,7 +22,7 @@ export const Title = styled.h1`
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
-  color: #bb6bd9;
+  color: var(--primary);
   padding-bottom: 40px;
 `
 

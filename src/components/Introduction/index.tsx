@@ -12,13 +12,21 @@ const Introduction = () => (
         <b>Desenvolvedora Front-end</b>.
       </S.Description>
       <S.BlockLinks>
-        <S.Link href="https://github.com/mocariz" target="_blank">
+        <S.Link
+          href="https://github.com/mocariz"
+          target="_blank"
+          className="no-style"
+        >
           <Github size={52} aria-label="Github" />
         </S.Link>
-        <S.Link href="https://www.linkedin.com/in/mocariz/" target="_blank">
+        <S.Link
+          href="https://www.linkedin.com/in/mocariz/"
+          target="_blank"
+          className="no-style"
+        >
           <Linkedin size={52} aria-label="Linkedin" />
         </S.Link>
-        <S.Link href="mailto:mota.ocariz@gmail.com">
+        <S.Link href="mailto:mota.ocariz@gmail.com" className="no-style">
           <Mail size={52} aria-label="Mail" />
         </S.Link>
       </S.BlockLinks>
@@ -27,7 +35,7 @@ const Introduction = () => (
         <ArrowheadDown size={40} />
       </S.ArrowheadDown>
     </S.Block>
-    <S.Block>
+    <S.BlockImage>
       <Image
         src="/img/banner.svg"
         alt="A developer sitting at the table with a notebook on her lap, beside her is her little dog Tessa, a white poodle."
@@ -36,7 +44,7 @@ const Introduction = () => (
         sizes="50vw"
         layout="responsive"
       />
-    </S.Block>
+    </S.BlockImage>
   </S.Wrapper>
 )
 

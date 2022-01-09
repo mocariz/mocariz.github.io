@@ -14,4 +14,5 @@ export const Main = styled.main`
   align-items: center;
   justify-content: center;
   margin: auto;
+  padding-top: 87px;
 `
